@@ -1,0 +1,256 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                 MINI SIEM — SECURITY ANALYSIS REPORT                 ║
+╚══════════════════════════════════════════════════════════════════════╝
+  Generated: 2026-09-25 03:30:46
+  Analysis Window: 2026-09-18 00:35:26 → 2026-09-24 23:56:27
+  Detection Rule: Brute-Force (Sliding Window, 5-min, threshold=5)
+
+
+========================================================================
+  1. EXECUTIVE SUMMARY
+========================================================================
+
+  Total Authentication Events Analyzed ..    1,802
+  Successful Authentications ............    1,346
+  Failed Authentications ................      456
+  Failure Rate ..........................    25.3%
+  Unique Source IPs .....................      127
+  Unique Usernames ......................       48
+
+  ┌─────────────────────────────────────────┐
+  │  SECURITY ALERTS GENERATED:   6           │
+  │                                         │
+  │    [!!!] HIGH   :   3                     │
+  │    [!!]  MEDIUM :   1                     │
+  │    [!]   LOW    :   2                     │
+  └─────────────────────────────────────────┘
+
+
+========================================================================
+  2. ALERT DETAILS
+========================================================================
+
+  ┌────────────────────────────────────────────────────────────────────┐
+  │  Alert #1: SIEM-BF-0003          Severity: [!!!] CRITICAL   │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Source IP       : 192.0.2.100                                    │
+  │  Failed Attempts : 38                                             │
+  │  Window Start    : 2026-09-23 05:21:22                            │
+  │  Window End      : 2026-09-23 05:25:52                            │
+  │  MITRE ATT&CK   : T1110.004 — Credential Stuffing                │
+  │  Targeted Users  : admin, guest, jane, john, root                 │
+  │  Services Hit    : rdp, sshd, vpn_gateway, web_portal             │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Recommendation  : IMMEDIATE ACTION REQUIRED: Block source IP at  │
+  │                   perimeter firewall. Investigate targeted accou │
+  │                   nts for compromise. Force credential rotation. │
+  │                    Escalate to SOC Tier-2.                       │
+  └────────────────────────────────────────────────────────────────────┘
+
+  ┌────────────────────────────────────────────────────────────────────┐
+  │  Alert #2: SIEM-BF-0004          Severity: [!!!] CRITICAL   │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Source IP       : 203.0.113.45                                   │
+  │  Failed Attempts : 23                                             │
+  │  Window Start    : 2026-09-21 05:22:32                            │
+  │  Window End      : 2026-09-21 05:24:52                            │
+  │  MITRE ATT&CK   : T1110.003 — Password Spraying                  │
+  │  Targeted Users  : admin, root, ubuntu                            │
+  │  Services Hit    : rdp, sshd, vpn_gateway, web_portal             │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Recommendation  : IMMEDIATE ACTION REQUIRED: Block source IP at  │
+  │                   perimeter firewall. Investigate targeted accou │
+  │                   nts for compromise. Force credential rotation. │
+  │                    Escalate to SOC Tier-2.                       │
+  └────────────────────────────────────────────────────────────────────┘
+
+  ┌────────────────────────────────────────────────────────────────────┐
+  │  Alert #3: SIEM-BF-0002          Severity: [!!!] CRITICAL   │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Source IP       : 45.33.32.156                                   │
+  │  Failed Attempts : 20                                             │
+  │  Window Start    : 2026-09-22 10:29:01                            │
+  │  Window End      : 2026-09-22 10:33:55                            │
+  │  MITRE ATT&CK   : T1110.004 — Credential Stuffing                │
+  │  Targeted Users  : admin, oracle, postgres, root, test            │
+  │  Services Hit    : rdp, sshd, vpn_gateway, web_portal             │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Recommendation  : IMMEDIATE ACTION REQUIRED: Block source IP at  │
+  │                   perimeter firewall. Investigate targeted accou │
+  │                   nts for compromise. Force credential rotation. │
+  │                    Escalate to SOC Tier-2.                       │
+  └────────────────────────────────────────────────────────────────────┘
+
+  ┌────────────────────────────────────────────────────────────────────┐
+  │  Alert #4: SIEM-BF-0005          Severity: [!!]  WARNING    │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Source IP       : 198.51.100.22                                  │
+  │  Failed Attempts : 16                                             │
+  │  Window Start    : 2026-09-21 17:08:33                            │
+  │  Window End      : 2026-09-21 17:11:53                            │
+  │  MITRE ATT&CK   : T1110.003 — Password Spraying                  │
+  │  Targeted Users  : admin, administrator, test                     │
+  │  Services Hit    : rdp, sshd, vpn_gateway, web_portal             │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Recommendation  : PRIORITY: Implement rate-limiting for source I │
+  │                   P. Force password reset on targeted accounts.  │
+  │                   Monitor for lateral movement and privilege esc │
+  │                   alation.                                       │
+  └────────────────────────────────────────────────────────────────────┘
+
+  ┌────────────────────────────────────────────────────────────────────┐
+  │  Alert #5: SIEM-BF-0006          Severity: [!]   NOTICE     │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Source IP       : 10.0.0.254                                     │
+  │  Failed Attempts : 9                                              │
+  │  Window Start    : 2026-09-23 00:13:54                            │
+  │  Window End      : 2026-09-23 00:17:52                            │
+  │  MITRE ATT&CK   : T1110.003 — Password Spraying                  │
+  │  Targeted Users  : backup_admin, svc_account                      │
+  │  Services Hit    : rdp, sshd, vpn_gateway, web_portal             │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Recommendation  : MONITOR: Add source IP to threat watchlist. Re │
+  │                   view account lockout policies. Verify targeted │
+  │                    accounts are not compromised. No immediate ac │
+  │                   tion required.                                 │
+  └────────────────────────────────────────────────────────────────────┘
+
+  ┌────────────────────────────────────────────────────────────────────┐
+  │  Alert #6: SIEM-BF-0001          Severity: [!]   NOTICE     │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Source IP       : 172.16.0.88                                    │
+  │  Failed Attempts : 7                                              │
+  │  Window Start    : 2026-09-18 09:16:17                            │
+  │  Window End      : 2026-09-18 09:18:55                            │
+  │  MITRE ATT&CK   : T1110.004 — Credential Stuffing                │
+  │  Targeted Users  : ci_user, deploy, gitlab, jenkins               │
+  │  Services Hit    : sshd, web_portal                               │
+  ├────────────────────────────────────────────────────────────────────┤
+  │  Recommendation  : MONITOR: Add source IP to threat watchlist. Re │
+  │                   view account lockout policies. Verify targeted │
+  │                    accounts are not compromised. No immediate ac │
+  │                   tion required.                                 │
+  └────────────────────────────────────────────────────────────────────┘
+
+========================================================================
+  3. THREAT INTELLIGENCE — IOC PROFILES
+========================================================================
+
+  IP: 192.0.2.100  (EXTERNAL)
+    Total Failures  : 138
+    Total Successes : 0
+    First Seen      : 2026-09-20 00:30:03
+    Last Seen       : 2026-09-23 10:08:46
+    Targeted Users  : admin, guest, jane, john, root, support
+    Targeted Svc    : rdp, sshd, vpn_gateway, web_portal
+
+  IP: 45.33.32.156  (EXTERNAL)
+    Total Failures  : 53
+    Total Successes : 0
+    First Seen      : 2026-09-18 22:48:06
+    Last Seen       : 2026-09-22 10:33:55
+    Targeted Users  : admin, oracle, postgres, root, test
+    Targeted Svc    : rdp, sshd, vpn_gateway, web_portal
+
+  IP: 203.0.113.45  (EXTERNAL)
+    Total Failures  : 46
+    Total Successes : 0
+    First Seen      : 2026-09-21 05:22:32
+    Last Seen       : 2026-09-23 01:40:59
+    Targeted Users  : admin, root, ubuntu
+    Targeted Svc    : rdp, sshd, vpn_gateway, web_portal
+
+  IP: 198.51.100.22  (EXTERNAL)
+    Total Failures  : 27
+    Total Successes : 0
+    First Seen      : 2026-09-21 16:42:22
+    Last Seen       : 2026-09-21 17:11:53
+    Targeted Users  : admin, administrator, test
+    Targeted Svc    : rdp, sshd, vpn_gateway, web_portal
+
+  IP: 10.0.0.254  (INTERNAL)
+    Total Failures  : 24
+    Total Successes : 0
+    First Seen      : 2026-09-23 00:13:54
+    Last Seen       : 2026-09-24 05:13:47
+    Targeted Users  : backup_admin, svc_account
+    Targeted Svc    : rdp, sshd, vpn_gateway, web_portal
+
+  IP: 172.16.0.88  (INTERNAL)
+    Total Failures  : 14
+    Total Successes : 0
+    First Seen      : 2026-09-18 09:16:17
+    Last Seen       : 2026-09-21 08:39:56
+    Targeted Users  : ci_user, deploy, gitlab, jenkins, root
+    Targeted Svc    : sshd, web_portal
+
+
+========================================================================
+  4. TOP TARGETED ACCOUNTS
+========================================================================
+
+  Rank  Username            Failed Attempts   
+  ────────────────────────────────────────────
+  1     admin               61                
+  2     root                51                
+  3     support             24                
+  4     jane                23                
+  5     test                20                
+  6     guest               20                
+  7     karen               13                
+  8     oracle              13                
+  9     john                13                
+  10    ubuntu              13                
+  11    backup_admin        13                
+  12    user1               12                
+  13    svc_account         11                
+  14    charlie             10                
+  15    administrator       10                
+
+
+========================================================================
+  5. TOP TARGETED SERVICES
+========================================================================
+
+  Service             Failed Attempts   % of Total Failures 
+  ──────────────────────────────────────────────────────────
+  sshd                189               41.4               %
+  web_portal          114               25.0               %
+  rdp                 73                16.0               %
+  vpn_gateway         59                12.9               %
+  api_server          21                4.6                %
+
+
+========================================================================
+  6. SECURITY RECOMMENDATIONS
+========================================================================
+
+  [CRITICAL] Immediate Actions Required:
+    • Block all HIGH-severity source IPs at the perimeter firewall
+    • Initiate incident response for targeted accounts
+    • Force credential rotation for compromised/targeted users
+    • Escalate to SOC Tier-2 / Incident Commander
+
+  [WARNING] Priority Actions:
+    • Implement rate-limiting rules for MEDIUM-severity IPs
+    • Enable account lockout after 5 consecutive failures
+    • Review VPN and SSH access policies
+    • Monitor flagged IPs for lateral movement
+
+  [INFO] Monitoring Actions:
+    • Add LOW-severity IPs to the threat watchlist
+    • Review failed-login trends for anomalies
+    • Verify account lockout thresholds are properly configured
+
+  General Hardening:
+    • Enforce MFA (Multi-Factor Authentication) for all remote access
+    • Disable password-based SSH — use key-based authentication only
+    • Implement geo-blocking for unexpected source regions
+    • Deploy fail2ban or equivalent IPS for automated blocking
+    • Review and tighten service-account permissions
+
+────────────────────────────────────────────────────────────────────────
+  END OF REPORT — Generated by Mini SIEM v1.0
+  2026-09-25 03:30:46
+────────────────────────────────────────────────────────────────────────

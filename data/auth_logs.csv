@@ -1,0 +1,1803 @@
+timestamp,source_ip,username,auth_method,service,status,message
+2026-09-18 00:35:26,192.168.1.227,alice,ssh_key,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-18 00:35:52,10.0.3.187,leo,kerberos,rdp,SUCCESS,Accepted publickey for user
+2026-09-18 00:55:44,172.16.5.112,maria,2fa,api_server,SUCCESS,Authentication successful
+2026-09-18 01:08:44,10.0.14.234,alice,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 01:59:05,172.16.6.196,wendy,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 03:11:31,10.0.41.159,quinn,kerberos,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 03:22:35,10.0.23.155,charlie,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-18 03:50:23,10.0.30.98,arun,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-18 04:03:52,192.168.1.98,alice,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 05:08:11,172.16.9.156,bhaskar,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 05:20:36,192.168.1.161,eve,password,sshd,SUCCESS,Authentication successful
+2026-09-18 05:22:09,10.0.4.59,eve,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 05:22:44,10.0.42.118,charlie,certificate,api_server,SUCCESS,Access granted — session initiated
+2026-09-18 05:40:50,192.168.1.109,arun,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-18 06:08:28,192.168.1.99,frank,password,sshd,SUCCESS,Session opened for user
+2026-09-18 06:29:25,10.0.3.8,peter,ssh_key,api_server,FAILURE,error: maximum authentication attempts exceeded
+2026-09-18 06:31:41,10.0.24.42,victor,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-18 06:42:00,10.0.8.250,yuki,2fa,api_server,SUCCESS,Session opened for user
+2026-09-18 06:42:15,192.168.1.161,wendy,password,rdp,SUCCESS,Session opened for user
+2026-09-18 06:49:14,10.0.1.195,eve,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-18 06:57:05,192.168.1.138,karen,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 06:57:11,10.0.24.57,jack,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 06:58:22,10.0.24.42,olivia,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-18 07:14:03,10.0.42.118,tina,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-18 07:14:20,10.0.49.87,rachel,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 07:14:32,172.16.2.223,xander,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-18 07:18:35,10.0.17.207,dev,2fa,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 07:21:47,10.0.48.150,steve,password,api_server,SUCCESS,Session opened for user
+2026-09-18 07:26:27,10.0.50.199,leo,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 07:26:47,172.16.5.249,karen,password,vpn_gateway,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-18 07:29:40,172.16.3.139,zara,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 07:36:42,10.0.18.40,karen,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 07:47:38,192.168.1.40,diana,ssh_key,api_server,SUCCESS,Session opened for user
+2026-09-18 07:50:54,10.0.25.21,uma,password,sshd,SUCCESS,Authentication successful
+2026-09-18 07:51:26,192.168.1.109,bhaskar,kerberos,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 07:55:33,10.0.41.159,dev,kerberos,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 08:02:19,10.0.3.187,peter,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-18 08:04:58,192.168.1.99,maria,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 08:10:59,10.0.14.246,jack,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 08:13:58,10.0.35.187,arun,2fa,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-18 08:14:20,172.16.6.196,karen,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-18 08:14:55,172.16.5.112,victor,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 08:15:26,10.0.30.138,peter,certificate,sshd,SUCCESS,Authentication successful
+2026-09-18 08:39:53,172.16.2.223,peter,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 08:44:09,10.0.41.159,quinn,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-18 08:49:40,192.168.1.242,peter,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 08:53:44,10.0.6.219,chitra,2fa,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 08:56:06,10.0.3.187,xander,password,rdp,SUCCESS,Authentication successful
+2026-09-18 08:56:41,192.168.1.138,bob,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 08:56:53,10.0.18.40,grace,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-18 08:57:39,172.16.9.156,tina,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-18 08:59:20,10.0.41.159,chitra,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 09:00:36,10.0.30.98,arun,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-18 09:01:48,10.0.18.17,victor,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 09:11:49,10.0.29.151,eve,ssh_key,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 09:16:17,172.16.0.88,deploy,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-18 09:16:27,172.16.0.88,deploy,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 09:16:38,172.16.0.88,gitlab,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-18 09:17:59,172.16.0.88,ci_user,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 09:18:13,172.16.0.88,gitlab,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-18 09:18:25,172.16.0.88,jenkins,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-18 09:18:55,172.16.0.88,gitlab,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-18 09:23:44,10.0.30.138,henry,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-18 09:24:09,172.16.6.196,leo,password,api_server,SUCCESS,Accepted publickey for user
+2026-09-18 09:41:08,10.0.6.56,alice,ssh_key,api_server,SUCCESS,Authentication successful
+2026-09-18 09:41:23,10.0.41.159,leo,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 09:48:26,192.168.1.249,frank,password,sshd,SUCCESS,User authenticated successfully
+2026-09-18 09:52:16,192.168.1.161,frank,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-18 09:53:09,10.0.13.181,rachel,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-18 10:00:10,10.0.15.222,karen,kerberos,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 10:03:18,10.0.15.36,leo,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 10:06:52,10.0.38.103,jack,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 10:09:58,192.168.1.142,steve,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 10:10:36,192.168.1.17,maria,password,web_portal,SUCCESS,Authentication successful
+2026-09-18 10:11:00,172.16.6.196,maria,password,web_portal,SUCCESS,Authentication successful
+2026-09-18 10:13:19,10.0.48.144,olivia,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 10:14:05,10.0.15.130,xander,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-18 10:18:25,192.168.1.17,nathan,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 10:18:36,10.0.32.24,nathan,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-18 10:25:49,192.168.1.29,frank,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-18 10:26:45,10.0.45.140,tina,password,sshd,SUCCESS,User authenticated successfully
+2026-09-18 10:32:13,10.0.24.148,chitra,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-18 10:32:32,192.168.1.153,rachel,password,sshd,SUCCESS,Authentication successful
+2026-09-18 10:32:58,10.0.2.190,grace,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 10:33:25,192.168.1.41,steve,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-18 10:34:12,10.0.1.195,karen,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 10:35:26,192.168.1.136,charlie,password,vpn_gateway,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-18 10:37:15,10.0.45.140,peter,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 10:42:06,172.16.2.223,victor,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-18 10:43:15,10.0.42.118,arun,kerberos,rdp,SUCCESS,Access granted — session initiated
+2026-09-18 10:46:11,192.168.1.185,maria,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 10:50:06,10.0.46.167,xander,password,web_portal,SUCCESS,Session opened for user
+2026-09-18 10:53:48,10.0.30.138,eve,password,web_portal,SUCCESS,Session opened for user
+2026-09-18 10:53:55,10.0.27.57,henry,ssh_key,rdp,SUCCESS,Authentication successful
+2026-09-18 10:56:24,10.0.32.24,frank,password,api_server,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 11:00:10,192.168.1.136,uma,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-18 11:16:39,192.168.1.30,maria,ssh_key,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-18 11:18:52,192.168.1.30,victor,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-18 11:24:07,192.168.1.203,rachel,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 11:24:35,10.0.30.138,peter,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-18 11:25:35,192.168.1.17,karen,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 11:29:39,10.0.18.208,bob,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 11:29:58,10.0.32.102,uma,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 11:34:54,10.0.3.207,olivia,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-18 11:35:31,10.0.16.42,zara,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 11:36:10,10.0.18.63,grace,ssh_key,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 11:36:35,10.0.18.208,grace,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 11:45:35,192.168.1.109,peter,ssh_key,rdp,SUCCESS,Authentication successful
+2026-09-18 11:46:15,10.0.50.199,peter,2fa,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-18 11:47:47,10.0.2.190,leo,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 11:53:04,192.168.1.138,karen,2fa,api_server,SUCCESS,Kerberos TGT validated
+2026-09-18 11:58:17,10.0.6.56,nathan,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-18 12:07:33,10.0.36.51,quinn,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 12:10:04,10.0.11.179,jack,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-18 12:15:51,10.0.35.68,xander,ssh_key,rdp,SUCCESS,User authenticated successfully
+2026-09-18 12:21:00,10.0.9.131,bhaskar,2fa,sshd,FAILURE,Invalid credentials — access denied
+2026-09-18 12:21:02,10.0.24.57,charlie,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 12:21:26,10.0.49.87,jack,2fa,api_server,SUCCESS,Kerberos TGT validated
+2026-09-18 12:22:30,10.0.24.148,uma,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-18 12:29:11,10.0.15.222,arun,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 12:36:06,192.168.1.13,charlie,password,sshd,FAILURE,Failed password for invalid user
+2026-09-18 12:39:07,10.0.3.187,jack,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 12:43:30,10.0.18.63,karen,password,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-18 12:50:31,10.0.14.234,bob,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 12:56:02,192.168.1.203,quinn,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 13:00:24,10.0.30.98,wendy,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-18 13:02:01,10.0.44.190,charlie,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-18 13:09:58,172.16.6.29,leo,certificate,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 13:16:58,10.0.24.57,arun,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-18 13:23:29,10.0.48.144,eve,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-18 13:24:30,10.0.14.172,steve,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 13:32:58,172.16.4.40,bhaskar,password,api_server,SUCCESS,Session opened for user
+2026-09-18 13:33:45,10.0.24.57,leo,kerberos,sshd,SUCCESS,User authenticated successfully
+2026-09-18 13:37:56,10.0.24.42,xander,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 13:39:32,10.0.24.148,maria,password,sshd,SUCCESS,User authenticated successfully
+2026-09-18 13:41:43,10.0.32.102,uma,certificate,sshd,SUCCESS,Authentication successful
+2026-09-18 13:41:46,10.0.5.156,tina,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-18 13:43:55,10.0.32.102,henry,password,rdp,SUCCESS,User authenticated successfully
+2026-09-18 13:44:21,10.0.25.21,arun,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-18 13:45:12,10.0.35.23,jack,kerberos,web_portal,FAILURE,Failed password for invalid user
+2026-09-18 13:48:54,10.0.50.199,eve,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-18 13:53:37,10.0.48.150,yuki,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 14:00:52,172.16.5.197,leo,2fa,sshd,SUCCESS,Authentication successful
+2026-09-18 14:09:28,10.0.6.56,leo,password,sshd,SUCCESS,Session opened for user
+2026-09-18 14:10:28,172.16.5.112,leo,password,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-18 14:16:05,10.0.9.64,leo,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-18 14:24:24,10.0.3.187,alice,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 14:25:21,10.0.15.222,iris,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 14:25:28,10.0.23.155,yuki,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 14:26:42,10.0.38.103,steve,ssh_key,api_server,SUCCESS,Accepted publickey for user
+2026-09-18 14:26:51,172.16.5.112,karen,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 14:33:14,10.0.48.27,uma,password,web_portal,SUCCESS,Authentication successful
+2026-09-18 14:34:29,192.168.1.193,nathan,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-18 14:34:58,192.168.1.120,charlie,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-18 14:37:07,10.0.30.138,charlie,kerberos,web_portal,SUCCESS,Accepted publickey for user
+2026-09-18 14:38:10,10.0.50.199,charlie,ssh_key,rdp,SUCCESS,Authentication successful
+2026-09-18 14:39:28,192.168.1.249,iris,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-18 14:39:59,10.0.41.29,nathan,ssh_key,vpn_gateway,FAILURE,Failed password for invalid user
+2026-09-18 14:41:03,10.0.10.68,xander,password,rdp,SUCCESS,Kerberos TGT validated
+2026-09-18 14:42:06,172.16.9.156,grace,2fa,rdp,SUCCESS,Access granted — session initiated
+2026-09-18 14:50:02,10.0.44.190,diana,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 14:54:36,10.0.24.42,alice,ssh_key,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-18 14:57:18,10.0.6.56,nathan,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 15:03:13,192.168.1.203,arun,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-18 15:04:58,10.0.14.168,charlie,password,rdp,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 15:08:32,192.168.1.30,diana,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-18 15:13:17,10.0.11.179,yuki,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 15:16:15,10.0.24.91,jack,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 15:17:21,10.0.35.187,quinn,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 15:20:07,192.168.1.13,xander,certificate,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-18 15:22:14,192.168.1.99,xander,password,sshd,SUCCESS,Authentication successful
+2026-09-18 15:22:25,192.168.1.193,quinn,2fa,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-18 15:32:49,10.0.37.225,yuki,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-18 15:35:23,172.16.3.139,dev,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 15:41:48,10.0.3.8,henry,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 15:42:09,192.168.1.13,olivia,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-18 15:51:23,10.0.18.254,tina,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-18 15:59:25,172.16.6.196,tina,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-18 16:03:58,192.168.1.161,zara,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 16:06:34,10.0.41.29,jack,ssh_key,rdp,SUCCESS,Session opened for user
+2026-09-18 16:18:52,10.0.49.87,leo,certificate,api_server,SUCCESS,Kerberos TGT validated
+2026-09-18 16:20:21,10.0.35.68,arun,2fa,rdp,SUCCESS,Access granted — session initiated
+2026-09-18 16:30:59,192.168.1.29,tina,password,sshd,SUCCESS,User authenticated successfully
+2026-09-18 16:32:33,10.0.48.27,wendy,ssh_key,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-18 16:37:25,10.0.41.44,yuki,password,sshd,SUCCESS,User authenticated successfully
+2026-09-18 16:41:45,10.0.41.159,dev,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-18 16:42:40,10.0.14.246,xander,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 16:53:42,172.16.5.112,frank,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-18 16:55:52,192.168.1.65,uma,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 17:10:24,10.0.32.102,yuki,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-18 17:12:51,10.0.41.44,yuki,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 17:15:33,10.0.28.230,rachel,certificate,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 17:32:12,10.0.41.177,peter,kerberos,web_portal,SUCCESS,Access granted — session initiated
+2026-09-18 17:36:27,10.0.32.102,steve,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-18 17:39:26,172.16.9.156,iris,2fa,sshd,SUCCESS,Session opened for user
+2026-09-18 17:48:19,192.168.1.17,wendy,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-18 17:54:43,192.168.1.13,bhaskar,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-18 18:03:08,10.0.2.190,quinn,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-18 18:05:45,10.0.14.246,henry,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-18 18:09:03,10.0.4.59,frank,kerberos,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 18:09:13,10.0.25.21,dev,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-18 18:11:46,10.0.41.159,chitra,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 18:12:00,10.0.18.63,tina,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 18:12:10,172.16.6.29,karen,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-18 18:28:02,10.0.4.59,charlie,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-18 18:33:42,10.0.18.254,uma,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 19:07:29,192.168.1.138,tina,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-18 19:11:10,192.168.1.142,zara,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-18 19:30:35,192.168.1.142,bob,2fa,web_portal,FAILURE,Failed password for invalid user
+2026-09-18 19:36:49,10.0.49.87,diana,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-18 19:40:00,192.168.1.98,henry,ssh_key,rdp,SUCCESS,Session opened for user
+2026-09-18 19:44:57,10.0.42.118,eve,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-18 19:49:36,172.16.6.196,iris,password,web_portal,SUCCESS,Authentication successful
+2026-09-18 19:52:29,10.0.27.57,charlie,password,vpn_gateway,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-18 20:03:50,10.0.36.51,wendy,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-18 21:05:17,10.0.32.102,yuki,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-18 21:38:51,10.0.11.179,henry,password,web_portal,SUCCESS,Authentication successful
+2026-09-18 22:27:12,10.0.24.42,wendy,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-18 22:48:06,45.33.32.156,postgres,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 22:48:28,45.33.32.156,admin,ssh_key,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-18 22:48:54,45.33.32.156,test,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-18 22:49:24,10.0.48.150,bob,2fa,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-18 22:49:38,45.33.32.156,test,password,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 22:49:39,45.33.32.156,admin,ssh_key,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-18 22:50:29,45.33.32.156,root,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 22:50:32,45.33.32.156,oracle,password,sshd,FAILURE,Failed password for invalid user
+2026-09-18 22:50:40,45.33.32.156,test,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 22:50:56,45.33.32.156,admin,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 22:50:57,45.33.32.156,root,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 22:50:59,45.33.32.156,postgres,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 22:51:39,45.33.32.156,root,ssh_key,rdp,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 22:52:01,45.33.32.156,oracle,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-18 22:52:02,45.33.32.156,test,ssh_key,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 22:52:10,45.33.32.156,admin,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-18 22:52:17,45.33.32.156,root,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-18 22:52:55,45.33.32.156,admin,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-19 00:24:15,10.0.46.81,olivia,password,sshd,SUCCESS,User authenticated successfully
+2026-09-19 01:41:01,172.16.5.112,eve,kerberos,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 02:21:50,10.0.38.103,jack,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-19 03:24:22,192.168.1.98,xander,password,sshd,SUCCESS,User authenticated successfully
+2026-09-19 03:53:16,10.0.8.250,dev,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-19 03:57:02,10.0.42.118,chitra,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 04:47:07,10.0.49.87,arun,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-19 05:15:18,10.0.43.59,bob,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-19 05:23:57,10.0.10.68,dev,certificate,sshd,SUCCESS,Accepted publickey for user
+2026-09-19 05:45:28,172.16.4.40,olivia,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 06:01:50,172.16.5.197,yuki,password,sshd,SUCCESS,Session opened for user
+2026-09-19 06:12:08,10.0.29.151,yuki,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 06:12:27,10.0.2.190,karen,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-19 06:21:13,10.0.35.187,grace,2fa,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 06:49:29,10.0.18.180,bob,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 06:53:08,192.168.1.185,quinn,certificate,web_portal,SUCCESS,Login accepted via PAM
+2026-09-19 07:12:28,10.0.29.151,nathan,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 07:17:45,10.0.14.246,tina,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-19 07:18:15,10.0.24.91,uma,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 07:31:54,10.0.24.42,leo,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-19 07:37:35,10.0.10.68,arun,kerberos,sshd,SUCCESS,Accepted publickey for user
+2026-09-19 07:44:45,192.168.1.65,eve,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-19 07:46:26,192.168.1.41,peter,2fa,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 07:47:26,10.0.1.195,bhaskar,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 07:58:37,192.168.1.194,peter,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-19 08:01:26,10.0.21.103,alice,password,sshd,SUCCESS,Session opened for user
+2026-09-19 08:02:15,10.0.25.21,peter,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-19 08:02:26,10.0.21.103,yuki,kerberos,api_server,SUCCESS,Accepted publickey for user
+2026-09-19 08:10:36,10.0.41.44,grace,2fa,rdp,SUCCESS,Access granted — session initiated
+2026-09-19 08:11:13,192.168.1.161,iris,ssh_key,rdp,SUCCESS,User authenticated successfully
+2026-09-19 08:11:14,10.0.4.59,chitra,2fa,sshd,SUCCESS,Session opened for user
+2026-09-19 08:11:45,10.0.1.195,eve,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-19 08:12:01,10.0.41.44,xander,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-19 08:12:46,10.0.2.190,chitra,password,api_server,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-19 08:14:11,172.16.3.130,bob,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 08:23:09,10.0.32.24,yuki,kerberos,sshd,SUCCESS,User authenticated successfully
+2026-09-19 08:24:18,10.0.45.140,rachel,password,rdp,SUCCESS,Login accepted via PAM
+2026-09-19 08:24:22,10.0.17.207,karen,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-19 08:24:44,10.0.11.179,eve,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-19 08:24:53,10.0.18.208,dev,2fa,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 08:30:01,10.0.18.117,arun,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 08:33:16,192.168.1.185,arun,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-19 08:36:47,192.168.1.193,iris,kerberos,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-19 08:37:26,10.0.48.150,bob,kerberos,rdp,SUCCESS,Kerberos TGT validated
+2026-09-19 08:41:22,10.0.28.88,bob,kerberos,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 08:43:04,10.0.18.254,frank,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-19 08:47:27,192.168.1.185,alice,kerberos,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 09:05:17,10.0.13.181,eve,ssh_key,sshd,FAILURE,Failed password for invalid user
+2026-09-19 09:06:04,192.168.1.138,leo,2fa,sshd,SUCCESS,Session opened for user
+2026-09-19 09:12:30,192.168.1.161,leo,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-19 09:13:27,172.16.5.112,charlie,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 09:17:58,10.0.8.250,tina,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 09:20:01,10.0.41.214,yuki,kerberos,rdp,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 09:22:03,192.168.1.99,bob,ssh_key,rdp,SUCCESS,Access granted — session initiated
+2026-09-19 09:27:40,172.16.2.223,henry,2fa,api_server,SUCCESS,Accepted publickey for user
+2026-09-19 09:30:55,10.0.36.57,quinn,password,api_server,SUCCESS,Authentication successful
+2026-09-19 09:31:23,10.0.25.25,bob,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-19 09:32:41,10.0.44.190,iris,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 09:35:34,10.0.7.24,iris,ssh_key,rdp,SUCCESS,Session opened for user
+2026-09-19 09:36:36,10.0.38.103,bob,certificate,web_portal,SUCCESS,Authentication successful
+2026-09-19 09:38:15,10.0.48.144,maria,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 09:38:37,10.0.17.207,henry,ssh_key,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-19 09:39:38,172.16.1.245,charlie,ssh_key,api_server,SUCCESS,Authentication successful
+2026-09-19 09:40:16,192.168.1.203,olivia,2fa,rdp,SUCCESS,Login accepted via PAM
+2026-09-19 09:40:37,10.0.44.166,rachel,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-19 09:43:40,172.16.1.245,bhaskar,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-19 09:44:15,10.0.18.254,peter,2fa,rdp,SUCCESS,Authentication successful
+2026-09-19 09:45:53,10.0.35.68,chitra,ssh_key,rdp,SUCCESS,Access granted — session initiated
+2026-09-19 09:48:19,172.16.5.216,dev,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-19 09:52:58,10.0.18.17,bhaskar,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 09:54:10,10.0.32.102,bob,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 10:00:49,10.0.48.144,victor,password,rdp,SUCCESS,User authenticated successfully
+2026-09-19 10:03:15,10.0.43.59,nathan,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-19 10:10:28,10.0.42.118,arun,2fa,vpn_gateway,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-19 10:12:10,192.168.1.13,arun,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-19 10:13:42,192.168.1.249,iris,kerberos,vpn_gateway,SUCCESS,Session opened for user
+2026-09-19 10:16:21,10.0.5.12,iris,ssh_key,rdp,SUCCESS,User authenticated successfully
+2026-09-19 10:23:39,10.0.13.181,bhaskar,ssh_key,rdp,SUCCESS,Access granted — session initiated
+2026-09-19 10:28:39,10.0.15.222,bob,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 10:30:03,10.0.18.17,quinn,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 10:35:13,10.0.15.36,diana,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-19 10:37:14,192.168.1.221,chitra,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-19 10:43:41,10.0.15.222,chitra,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-19 10:45:23,172.16.6.29,arun,password,api_server,SUCCESS,Kerberos TGT validated
+2026-09-19 10:45:30,192.168.1.41,quinn,kerberos,api_server,SUCCESS,Authentication successful
+2026-09-19 10:46:20,10.0.13.181,yuki,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-19 10:48:24,10.0.50.199,frank,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-19 10:50:37,10.0.2.190,bhaskar,password,api_server,SUCCESS,Accepted publickey for user
+2026-09-19 10:52:02,10.0.41.177,jack,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-19 10:53:19,172.16.4.40,grace,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 11:10:17,172.16.2.223,charlie,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-19 11:13:38,10.0.41.214,grace,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 11:30:13,10.0.32.102,bhaskar,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 11:30:22,10.0.14.168,karen,2fa,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-19 11:35:27,10.0.39.7,maria,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 11:44:37,10.0.6.219,diana,kerberos,api_server,SUCCESS,Session opened for user
+2026-09-19 11:48:57,10.0.38.103,uma,2fa,sshd,SUCCESS,Session opened for user
+2026-09-19 11:49:02,10.0.6.219,tina,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-19 11:50:40,10.0.6.219,eve,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-19 11:52:48,192.168.1.98,bhaskar,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-19 11:53:15,10.0.14.168,peter,2fa,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-19 11:56:53,10.0.8.250,nathan,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-19 11:58:55,10.0.50.75,bob,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 12:00:19,10.0.36.51,wendy,password,sshd,SUCCESS,Authentication successful
+2026-09-19 12:05:48,10.0.15.222,bob,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 12:09:41,192.168.1.29,henry,2fa,rdp,SUCCESS,Authentication successful
+2026-09-19 12:17:28,10.0.28.88,henry,password,sshd,SUCCESS,User authenticated successfully
+2026-09-19 12:18:49,192.168.1.193,bhaskar,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 12:22:13,192.168.1.120,chitra,password,api_server,SUCCESS,Session opened for user
+2026-09-19 12:23:03,10.0.43.59,tina,2fa,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 12:29:08,172.16.3.117,wendy,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 12:29:35,10.0.44.166,dev,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 12:32:29,10.0.5.12,peter,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-19 12:34:21,192.168.1.185,rachel,2fa,rdp,SUCCESS,Kerberos TGT validated
+2026-09-19 12:38:30,172.16.6.196,wendy,password,rdp,SUCCESS,Session opened for user
+2026-09-19 12:48:56,10.0.46.81,uma,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-19 12:50:12,172.16.5.216,wendy,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-19 12:50:20,10.0.48.27,chitra,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-19 12:50:51,192.168.1.249,diana,2fa,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-19 12:58:52,192.168.1.30,leo,2fa,sshd,SUCCESS,Session opened for user
+2026-09-19 12:59:21,192.168.1.242,chitra,password,sshd,SUCCESS,Session opened for user
+2026-09-19 13:01:11,192.168.1.193,iris,password,web_portal,SUCCESS,Authentication successful
+2026-09-19 13:08:19,10.0.21.103,xander,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-19 13:09:02,10.0.36.51,eve,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-19 13:09:10,192.168.1.17,karen,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-19 13:11:42,10.0.38.109,victor,ssh_key,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-19 13:13:24,10.0.14.168,yuki,kerberos,sshd,FAILURE,Invalid credentials — access denied
+2026-09-19 13:22:30,192.168.1.161,diana,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-19 13:23:49,10.0.35.187,peter,password,api_server,SUCCESS,Session opened for user
+2026-09-19 13:28:44,10.0.18.180,peter,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-19 13:44:23,10.0.23.155,karen,ssh_key,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-19 13:47:33,10.0.39.7,henry,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-19 13:51:11,10.0.27.57,diana,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 13:52:09,10.0.17.207,arun,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-19 13:55:24,10.0.16.42,victor,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-19 14:00:59,10.0.9.64,bob,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 14:01:05,10.0.24.148,eve,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 14:01:33,10.0.46.167,peter,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 14:06:09,10.0.29.151,rachel,ssh_key,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 14:10:21,10.0.44.84,leo,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-19 14:13:22,10.0.36.51,grace,certificate,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-19 14:17:12,10.0.36.76,karen,password,web_portal,SUCCESS,Authentication successful
+2026-09-19 14:17:34,10.0.10.68,arun,kerberos,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-19 14:20:36,10.0.3.187,charlie,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 14:22:49,10.0.14.246,rachel,kerberos,api_server,SUCCESS,Session opened for user
+2026-09-19 14:23:09,10.0.3.207,yuki,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 14:26:01,192.168.1.40,henry,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-19 14:26:45,10.0.18.254,olivia,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-19 14:27:25,10.0.6.219,alice,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 14:34:01,172.16.3.117,quinn,2fa,sshd,SUCCESS,Session opened for user
+2026-09-19 14:35:01,192.168.1.242,xander,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 14:35:10,172.16.4.40,iris,kerberos,web_portal,SUCCESS,User authenticated successfully
+2026-09-19 14:39:34,10.0.18.117,charlie,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-19 14:48:31,10.0.14.172,diana,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 14:53:53,172.16.6.29,alice,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-19 15:01:47,172.16.3.139,arun,password,rdp,SUCCESS,Session opened for user
+2026-09-19 15:03:59,10.0.7.98,bhaskar,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-19 15:04:11,192.168.1.161,dev,kerberos,web_portal,SUCCESS,Access granted — session initiated
+2026-09-19 15:06:21,10.0.44.84,nathan,2fa,sshd,SUCCESS,Session opened for user
+2026-09-19 15:07:21,10.0.41.214,chitra,kerberos,web_portal,SUCCESS,Accepted publickey for user
+2026-09-19 15:07:22,10.0.3.187,nathan,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-19 15:07:24,10.0.18.17,bob,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 15:08:06,10.0.27.57,maria,ssh_key,rdp,SUCCESS,Access granted — session initiated
+2026-09-19 15:28:51,192.168.1.109,tina,ssh_key,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 15:29:24,10.0.15.222,wendy,ssh_key,sshd,FAILURE,Failed password for invalid user
+2026-09-19 15:30:15,172.16.5.197,bhaskar,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-19 15:32:04,10.0.9.131,leo,ssh_key,rdp,SUCCESS,Access granted — session initiated
+2026-09-19 15:36:39,192.168.1.65,victor,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-19 15:37:32,172.16.3.139,frank,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-19 15:40:06,10.0.35.68,yuki,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-19 15:42:01,10.0.35.68,maria,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-19 15:42:16,192.168.1.249,xander,2fa,sshd,SUCCESS,Authentication successful
+2026-09-19 15:53:26,10.0.24.91,charlie,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-19 15:55:28,10.0.3.207,steve,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-19 15:55:33,192.168.1.120,chitra,2fa,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 15:59:06,10.0.13.181,charlie,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 16:03:26,172.16.6.29,jack,2fa,api_server,SUCCESS,Session opened for user
+2026-09-19 16:12:04,10.0.18.17,iris,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-19 16:19:35,192.168.1.194,bhaskar,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 16:19:52,192.168.1.249,wendy,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-19 16:40:24,10.0.32.102,nathan,certificate,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 17:05:05,10.0.45.140,xander,2fa,api_server,SUCCESS,Session opened for user
+2026-09-19 17:05:57,10.0.18.17,chitra,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-19 17:24:27,172.16.3.117,grace,password,sshd,FAILURE,Failed password for invalid user
+2026-09-19 17:33:40,10.0.18.180,alice,ssh_key,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-19 17:35:28,10.0.15.130,peter,2fa,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-19 17:36:52,10.0.18.117,peter,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-19 17:40:51,172.16.5.216,dev,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-19 17:49:46,10.0.48.144,tina,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 17:52:18,172.16.5.216,alice,2fa,sshd,SUCCESS,Authentication successful
+2026-09-19 17:53:14,10.0.18.180,chitra,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-19 18:03:40,192.168.1.194,wendy,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-19 18:03:58,10.0.18.208,leo,2fa,rdp,SUCCESS,Login accepted via PAM
+2026-09-19 18:16:52,10.0.50.75,maria,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-19 18:17:51,10.0.25.25,victor,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 18:28:32,192.168.1.194,alice,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-19 18:33:26,10.0.44.84,wendy,password,api_server,SUCCESS,Authentication successful
+2026-09-19 18:37:37,192.168.1.175,leo,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-19 18:46:27,10.0.41.159,olivia,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-19 18:54:45,10.0.18.208,peter,2fa,sshd,SUCCESS,Authentication successful
+2026-09-19 19:07:00,172.16.4.40,wendy,ssh_key,api_server,SUCCESS,Accepted publickey for user
+2026-09-19 19:10:04,192.168.1.120,iris,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 19:21:49,10.0.36.51,peter,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-19 19:49:59,10.0.5.156,tina,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-19 20:16:55,10.0.3.187,peter,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-19 20:28:06,172.16.5.249,zara,2fa,api_server,SUCCESS,Accepted publickey for user
+2026-09-19 20:47:55,45.33.32.156,admin,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-19 20:48:25,45.33.32.156,test,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-19 20:48:42,45.33.32.156,test,ssh_key,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-19 20:49:02,45.33.32.156,admin,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-19 20:49:20,45.33.32.156,admin,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-19 20:49:31,45.33.32.156,root,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-19 20:49:46,45.33.32.156,oracle,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-19 20:50:07,45.33.32.156,oracle,password,rdp,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 20:50:18,45.33.32.156,root,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 20:50:41,45.33.32.156,oracle,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-19 20:50:48,45.33.32.156,oracle,password,rdp,FAILURE,Failed password for invalid user
+2026-09-19 20:50:50,45.33.32.156,test,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 20:51:12,45.33.32.156,root,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-19 20:51:30,45.33.32.156,oracle,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-19 20:51:30,45.33.32.156,admin,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-19 20:51:43,45.33.32.156,test,ssh_key,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-19 21:16:44,10.0.4.59,olivia,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-19 21:32:45,172.16.5.249,diana,password,rdp,SUCCESS,Session opened for user
+2026-09-19 21:40:25,10.0.14.172,diana,password,web_portal,SUCCESS,Session opened for user
+2026-09-19 21:43:14,10.0.8.250,arun,2fa,rdp,SUCCESS,Kerberos TGT validated
+2026-09-19 22:05:59,10.0.25.21,zara,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-19 22:58:07,172.16.3.139,olivia,ssh_key,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-19 23:27:40,10.0.45.140,arun,certificate,web_portal,SUCCESS,Login accepted via PAM
+2026-09-19 23:32:33,192.168.1.138,xander,2fa,api_server,SUCCESS,Kerberos TGT validated
+2026-09-19 23:40:09,10.0.23.155,arun,password,api_server,FAILURE,Failed password for invalid user
+2026-09-20 00:29:45,172.16.1.245,dev,password,api_server,SUCCESS,Kerberos TGT validated
+2026-09-20 00:30:03,192.0.2.100,root,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-20 00:30:35,192.0.2.100,admin,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-20 00:30:36,192.0.2.100,guest,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-20 00:30:37,192.0.2.100,user1,password,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 00:30:40,192.0.2.100,user1,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-20 00:31:14,192.0.2.100,admin,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-20 00:31:41,192.0.2.100,jane,password,rdp,FAILURE,Invalid credentials — access denied
+2026-09-20 00:31:44,192.0.2.100,jane,password,vpn_gateway,FAILURE,Failed password for invalid user
+2026-09-20 00:32:15,192.0.2.100,jane,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-20 00:32:20,192.0.2.100,admin,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-20 00:32:53,192.0.2.100,support,password,vpn_gateway,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-20 00:33:09,192.0.2.100,support,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 00:33:10,192.0.2.100,support,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-20 00:33:17,192.0.2.100,guest,password,sshd,FAILURE,Failed password for invalid user
+2026-09-20 00:33:33,192.0.2.100,root,password,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-20 00:33:40,192.0.2.100,jane,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-20 00:33:47,192.0.2.100,jane,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 00:33:48,192.0.2.100,guest,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 00:33:48,192.0.2.100,admin,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 00:33:51,192.0.2.100,root,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-20 00:34:47,192.0.2.100,guest,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 00:34:49,192.0.2.100,jane,password,vpn_gateway,FAILURE,Failed password for invalid user
+2026-09-20 00:34:50,192.0.2.100,root,ssh_key,rdp,FAILURE,Invalid credentials — access denied
+2026-09-20 01:22:48,10.0.28.230,jack,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 01:40:54,192.168.1.29,wendy,certificate,rdp,SUCCESS,User authenticated successfully
+2026-09-20 02:07:38,10.0.24.42,frank,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 02:52:50,172.16.6.29,jack,password,web_portal,SUCCESS,Authentication successful
+2026-09-20 02:57:19,10.0.30.98,quinn,kerberos,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-20 03:53:42,10.0.25.25,maria,password,rdp,SUCCESS,Authentication successful
+2026-09-20 04:17:50,10.0.45.140,olivia,password,web_portal,SUCCESS,Session opened for user
+2026-09-20 04:18:45,192.168.1.249,jack,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 05:09:07,172.16.6.29,leo,certificate,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 05:25:38,10.0.46.167,bob,password,api_server,SUCCESS,Kerberos TGT validated
+2026-09-20 05:38:27,10.0.32.24,leo,2fa,web_portal,FAILURE,Failed password for invalid user
+2026-09-20 05:45:05,192.168.1.221,leo,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-20 05:48:31,10.0.5.156,henry,password,sshd,SUCCESS,User authenticated successfully
+2026-09-20 07:02:08,10.0.14.172,peter,certificate,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 07:08:05,10.0.15.130,nathan,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 07:10:17,172.16.5.249,olivia,ssh_key,rdp,SUCCESS,Session opened for user
+2026-09-20 07:24:32,172.16.6.29,steve,password,rdp,SUCCESS,Login accepted via PAM
+2026-09-20 07:25:00,192.168.1.13,iris,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 07:25:30,172.16.3.139,victor,2fa,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 07:25:36,10.0.44.190,dev,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 07:28:24,10.0.43.59,eve,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 07:32:28,172.16.3.117,diana,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 07:34:24,10.0.15.36,frank,kerberos,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 07:35:12,172.16.6.29,jack,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-20 07:42:00,10.0.14.168,victor,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 07:43:34,10.0.44.84,maria,certificate,rdp,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 07:44:07,192.168.1.98,arun,2fa,api_server,SUCCESS,Session opened for user
+2026-09-20 07:45:24,10.0.10.68,xander,certificate,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-20 07:46:37,10.0.36.57,peter,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 07:54:47,192.168.1.161,charlie,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 07:55:18,10.0.50.75,frank,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-20 07:56:18,192.168.1.17,zara,ssh_key,api_server,SUCCESS,Authentication successful
+2026-09-20 08:00:45,10.0.36.76,rachel,password,api_server,SUCCESS,Accepted publickey for user
+2026-09-20 08:17:07,172.16.9.196,alice,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-20 08:22:39,192.168.1.194,arun,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 08:27:58,10.0.48.144,bob,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-20 08:30:44,192.168.1.242,wendy,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 08:39:29,10.0.15.130,arun,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-20 08:39:47,10.0.3.8,arun,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 08:40:05,192.168.1.41,diana,password,rdp,SUCCESS,Session opened for user
+2026-09-20 08:43:31,10.0.41.29,victor,password,web_portal,SUCCESS,Authentication successful
+2026-09-20 08:43:54,10.0.44.166,chitra,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-20 08:44:39,192.168.1.193,iris,ssh_key,api_server,SUCCESS,Accepted publickey for user
+2026-09-20 08:46:57,10.0.32.24,nathan,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-20 08:54:25,10.0.48.27,diana,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 09:00:47,10.0.38.103,uma,password,api_server,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 09:02:44,10.0.23.155,dev,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-20 09:07:00,10.0.7.24,peter,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-20 09:07:18,10.0.45.140,iris,ssh_key,rdp,SUCCESS,Login accepted via PAM
+2026-09-20 09:13:42,10.0.36.57,karen,password,sshd,SUCCESS,User authenticated successfully
+2026-09-20 09:20:21,192.168.1.109,grace,certificate,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 09:20:59,10.0.18.40,diana,2fa,sshd,SUCCESS,Authentication successful
+2026-09-20 09:20:59,10.0.28.230,zara,2fa,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 09:21:57,10.0.27.57,maria,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 09:25:08,192.168.1.153,victor,password,sshd,SUCCESS,Authentication successful
+2026-09-20 09:26:25,10.0.6.219,maria,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 09:27:16,10.0.25.21,karen,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 09:34:13,10.0.42.118,grace,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-20 09:40:47,192.168.1.175,quinn,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-20 09:45:51,192.168.1.120,jack,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 09:47:34,172.16.9.236,zara,ssh_key,rdp,SUCCESS,Login accepted via PAM
+2026-09-20 09:48:22,10.0.38.109,maria,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 09:49:19,10.0.18.17,xander,certificate,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 09:56:09,10.0.25.21,bob,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 10:03:52,10.0.24.148,henry,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 10:08:10,192.168.1.29,xander,2fa,api_server,SUCCESS,Session opened for user
+2026-09-20 10:13:35,10.0.39.7,xander,kerberos,sshd,SUCCESS,User authenticated successfully
+2026-09-20 10:24:52,10.0.18.63,charlie,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-20 10:31:32,10.0.50.75,quinn,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-20 10:35:35,10.0.2.190,dev,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 10:38:45,10.0.35.23,nathan,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-20 10:42:59,10.0.43.59,charlie,ssh_key,api_server,SUCCESS,Accepted publickey for user
+2026-09-20 10:44:07,10.0.24.148,iris,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 10:45:56,10.0.4.59,rachel,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 10:48:04,192.168.1.98,steve,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-20 10:57:50,10.0.9.131,dev,2fa,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 10:58:00,10.0.48.150,grace,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 10:59:52,10.0.48.144,yuki,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-20 11:06:09,172.16.6.196,nathan,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-20 11:07:28,10.0.23.155,frank,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 11:09:11,192.168.1.17,dev,password,rdp,SUCCESS,Accepted publickey for user
+2026-09-20 11:19:29,192.168.1.65,jack,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-20 11:19:55,10.0.41.177,wendy,kerberos,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 11:31:36,172.16.3.130,tina,password,sshd,SUCCESS,User authenticated successfully
+2026-09-20 11:34:22,10.0.23.217,yuki,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-20 11:35:15,172.16.3.139,grace,certificate,api_server,SUCCESS,Kerberos TGT validated
+2026-09-20 11:42:16,172.16.1.245,leo,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-20 11:47:08,10.0.15.130,zara,2fa,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 11:47:41,10.0.18.180,alice,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 11:52:50,10.0.18.208,maria,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-20 11:52:55,10.0.23.155,uma,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 11:54:20,172.16.4.40,iris,ssh_key,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-20 12:02:06,10.0.29.151,quinn,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 12:04:23,10.0.13.181,iris,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 12:05:17,10.0.44.166,leo,2fa,web_portal,SUCCESS,Session opened for user
+2026-09-20 12:05:58,192.168.1.136,zara,password,api_server,SUCCESS,Login accepted via PAM
+2026-09-20 12:08:13,192.168.1.98,uma,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 12:10:29,10.0.27.57,alice,password,rdp,SUCCESS,Authentication successful
+2026-09-20 12:14:51,192.168.1.161,charlie,password,web_portal,SUCCESS,Authentication successful
+2026-09-20 12:15:36,192.168.1.249,xander,certificate,web_portal,SUCCESS,Session opened for user
+2026-09-20 12:19:12,10.0.14.246,leo,password,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 12:23:51,10.0.15.130,victor,2fa,api_server,SUCCESS,Access granted — session initiated
+2026-09-20 12:27:47,192.168.1.3,zara,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 12:28:11,172.16.3.130,bhaskar,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 12:31:52,10.0.32.24,frank,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-20 12:35:27,192.168.1.153,nathan,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-20 12:36:24,10.0.35.68,alice,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-20 12:41:34,10.0.30.98,chitra,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 12:49:40,192.168.1.65,quinn,2fa,rdp,SUCCESS,Login accepted via PAM
+2026-09-20 12:52:34,192.168.1.203,peter,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 12:53:51,192.168.1.227,olivia,password,sshd,SUCCESS,Authentication successful
+2026-09-20 12:54:10,10.0.29.151,jack,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 12:55:32,10.0.50.199,grace,kerberos,web_portal,SUCCESS,Session opened for user
+2026-09-20 13:00:37,10.0.36.57,jack,password,web_portal,SUCCESS,Authentication successful
+2026-09-20 13:01:49,10.0.49.87,frank,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 13:06:20,10.0.44.166,charlie,kerberos,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 13:06:59,192.168.1.99,karen,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 13:08:51,10.0.41.44,quinn,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-20 13:12:39,10.0.48.150,grace,ssh_key,api_server,SUCCESS,Session opened for user
+2026-09-20 13:18:01,172.16.2.223,dev,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 13:18:06,10.0.3.187,henry,certificate,rdp,SUCCESS,Access granted — session initiated
+2026-09-20 13:20:54,10.0.35.187,leo,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-20 13:31:12,10.0.18.254,steve,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 13:37:36,10.0.11.179,victor,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 13:37:43,10.0.39.7,diana,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-20 13:39:25,10.0.3.187,steve,password,rdp,SUCCESS,Kerberos TGT validated
+2026-09-20 13:41:42,10.0.24.57,grace,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-20 13:46:04,10.0.3.8,arun,password,sshd,SUCCESS,Authentication successful
+2026-09-20 13:51:31,10.0.15.130,diana,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 13:53:25,192.168.1.40,charlie,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 13:54:06,192.168.1.98,nathan,kerberos,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 13:55:49,10.0.32.24,bhaskar,password,api_server,SUCCESS,Accepted publickey for user
+2026-09-20 13:56:38,10.0.44.190,arun,certificate,api_server,SUCCESS,Accepted publickey for user
+2026-09-20 13:57:53,172.16.2.223,charlie,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-20 14:02:21,10.0.4.59,nathan,password,rdp,SUCCESS,Session opened for user
+2026-09-20 14:05:41,10.0.14.246,dev,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 14:11:20,10.0.30.138,uma,password,sshd,SUCCESS,Session opened for user
+2026-09-20 14:11:52,10.0.44.84,bhaskar,ssh_key,rdp,SUCCESS,Authentication successful
+2026-09-20 14:18:23,172.16.2.223,alice,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-20 14:18:30,10.0.18.180,chitra,certificate,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 14:22:07,10.0.46.81,bob,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-20 14:25:03,192.168.1.153,uma,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-20 14:25:24,192.168.1.194,wendy,password,web_portal,SUCCESS,Authentication successful
+2026-09-20 14:27:17,10.0.10.68,uma,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 14:31:49,10.0.41.177,xander,kerberos,web_portal,SUCCESS,Accepted publickey for user
+2026-09-20 14:43:09,10.0.39.7,iris,ssh_key,api_server,SUCCESS,Authentication successful
+2026-09-20 14:43:25,10.0.23.217,yuki,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 14:43:50,192.168.1.109,alice,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-20 14:47:44,10.0.9.131,rachel,ssh_key,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 14:51:02,192.168.1.109,xander,ssh_key,api_server,SUCCESS,User authenticated successfully
+2026-09-20 14:51:25,10.0.35.23,xander,2fa,api_server,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 14:55:10,192.168.1.142,wendy,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-20 14:55:43,10.0.18.40,chitra,2fa,rdp,SUCCESS,Access granted — session initiated
+2026-09-20 14:58:42,10.0.15.222,leo,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 15:05:42,10.0.36.76,peter,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 15:06:11,10.0.24.42,quinn,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-20 15:07:20,10.0.18.17,rachel,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 15:10:58,10.0.2.190,dev,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-20 15:11:12,10.0.49.87,eve,ssh_key,api_server,SUCCESS,Login accepted via PAM
+2026-09-20 15:14:43,10.0.43.59,rachel,2fa,api_server,SUCCESS,User authenticated successfully
+2026-09-20 15:15:20,192.168.1.193,chitra,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 15:24:03,10.0.36.57,zara,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 15:29:31,192.168.1.153,bhaskar,certificate,sshd,SUCCESS,User authenticated successfully
+2026-09-20 15:31:48,192.168.1.41,eve,kerberos,vpn_gateway,SUCCESS,Authentication successful
+2026-09-20 15:37:33,10.0.15.36,tina,password,sshd,SUCCESS,Authentication successful
+2026-09-20 15:41:18,10.0.7.24,olivia,2fa,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 15:45:41,10.0.18.17,iris,kerberos,rdp,SUCCESS,Session opened for user
+2026-09-20 15:45:50,10.0.28.230,jack,ssh_key,rdp,SUCCESS,Session opened for user
+2026-09-20 15:46:40,10.0.28.88,alice,certificate,rdp,SUCCESS,Session opened for user
+2026-09-20 15:48:32,10.0.32.24,peter,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 15:48:56,10.0.32.24,dev,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 15:57:06,10.0.15.130,uma,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-20 15:57:33,192.168.1.98,dev,ssh_key,api_server,SUCCESS,Accepted publickey for user
+2026-09-20 15:57:33,10.0.27.57,yuki,kerberos,api_server,SUCCESS,Authentication successful
+2026-09-20 15:59:35,10.0.44.190,uma,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 16:04:03,10.0.10.68,frank,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 16:05:03,192.168.1.17,iris,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 16:07:03,172.16.6.29,peter,password,web_portal,SUCCESS,Authentication successful
+2026-09-20 16:09:30,192.168.1.227,nathan,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-20 16:11:07,10.0.32.102,maria,certificate,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 16:11:53,10.0.16.42,yuki,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 16:15:17,10.0.38.109,uma,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-20 16:17:33,10.0.4.59,charlie,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 16:17:42,10.0.6.56,rachel,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 16:17:47,10.0.48.150,grace,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 16:20:17,192.168.1.142,maria,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 16:20:27,10.0.3.187,xander,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 16:22:31,192.168.1.136,zara,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 16:37:01,10.0.44.84,yuki,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 16:37:03,10.0.18.117,leo,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 16:39:03,192.168.1.193,tina,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 16:39:44,10.0.11.179,victor,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-20 16:40:16,10.0.6.219,frank,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-20 16:40:16,10.0.41.159,chitra,kerberos,rdp,SUCCESS,User authenticated successfully
+2026-09-20 16:44:22,10.0.41.44,dev,password,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 16:45:48,10.0.2.190,victor,ssh_key,api_server,SUCCESS,Access granted — session initiated
+2026-09-20 17:08:44,10.0.36.76,bhaskar,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 17:12:22,10.0.35.187,wendy,password,sshd,SUCCESS,Session opened for user
+2026-09-20 17:13:37,172.16.3.117,arun,password,sshd,SUCCESS,Authentication successful
+2026-09-20 17:17:58,10.0.27.57,peter,password,sshd,FAILURE,Failed password for invalid user
+2026-09-20 17:21:24,192.168.1.13,uma,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-20 17:27:49,10.0.9.131,wendy,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 17:30:01,10.0.42.118,xander,password,api_server,SUCCESS,Authentication successful
+2026-09-20 17:39:56,10.0.18.208,bhaskar,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-20 17:40:38,10.0.23.217,rachel,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-20 17:49:03,10.0.41.214,henry,password,sshd,SUCCESS,Session opened for user
+2026-09-20 17:50:34,10.0.44.190,maria,certificate,rdp,SUCCESS,Login accepted via PAM
+2026-09-20 17:53:42,192.168.1.41,chitra,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 18:02:07,10.0.3.8,bob,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 18:03:06,10.0.6.56,nathan,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-20 18:14:41,10.0.43.59,charlie,2fa,api_server,SUCCESS,Access granted — session initiated
+2026-09-20 18:16:39,10.0.18.63,arun,kerberos,web_portal,SUCCESS,Session opened for user
+2026-09-20 18:22:56,10.0.28.230,karen,ssh_key,api_server,SUCCESS,Session opened for user
+2026-09-20 18:30:44,192.168.1.98,arun,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-20 18:32:20,172.16.9.236,maria,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-20 18:35:20,192.168.1.161,charlie,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-20 18:49:17,10.0.14.172,eve,2fa,sshd,SUCCESS,Session opened for user
+2026-09-20 19:02:08,192.0.2.100,jane,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 19:02:25,192.0.2.100,jane,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-20 19:02:43,192.0.2.100,admin,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 19:02:44,192.0.2.100,admin,password,rdp,FAILURE,"Permission denied (publickey,password)"
+2026-09-20 19:02:45,192.0.2.100,user1,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 19:03:08,192.0.2.100,guest,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-20 19:03:13,192.0.2.100,support,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 19:03:16,192.0.2.100,guest,password,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 19:03:17,192.0.2.100,guest,password,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-20 19:03:29,192.0.2.100,john,password,rdp,FAILURE,Failed password for invalid user
+2026-09-20 19:03:35,192.0.2.100,guest,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-20 19:03:46,192.0.2.100,root,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 19:04:22,192.0.2.100,root,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 19:04:23,192.0.2.100,jane,ssh_key,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-20 19:04:37,192.0.2.100,root,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-20 19:04:45,192.0.2.100,john,password,rdp,FAILURE,Failed password for invalid user
+2026-09-20 19:05:20,192.0.2.100,john,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 19:05:34,192.0.2.100,admin,ssh_key,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-20 19:05:35,192.0.2.100,root,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-20 19:05:42,192.0.2.100,admin,password,sshd,FAILURE,Failed password for invalid user
+2026-09-20 19:06:11,192.0.2.100,support,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 19:06:18,10.0.16.42,zara,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 19:06:21,192.0.2.100,root,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-20 19:06:31,192.0.2.100,jane,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 19:06:45,192.0.2.100,user1,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-20 19:06:51,192.0.2.100,john,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-20 19:06:57,192.0.2.100,admin,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-20 19:30:48,192.168.1.138,karen,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-20 19:34:51,192.168.1.17,tina,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-20 19:42:24,172.16.4.40,zara,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-20 19:50:29,10.0.18.17,jack,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-20 19:54:14,172.16.2.223,chitra,2fa,sshd,SUCCESS,Authentication successful
+2026-09-20 20:00:35,192.168.1.41,bhaskar,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-20 20:17:14,10.0.36.51,tina,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-20 20:29:43,10.0.44.84,olivia,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-20 20:33:45,192.168.1.221,chitra,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 20:43:10,10.0.25.21,bob,certificate,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 21:01:43,192.168.1.17,bhaskar,2fa,web_portal,SUCCESS,Session opened for user
+2026-09-20 21:55:35,10.0.44.190,charlie,2fa,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-20 21:57:41,172.16.3.130,leo,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-20 23:30:39,10.0.42.118,tina,password,web_portal,SUCCESS,Authentication successful
+2026-09-20 23:42:51,10.0.11.179,tina,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-21 00:02:18,192.168.1.227,tina,ssh_key,api_server,SUCCESS,Login accepted via PAM
+2026-09-21 02:12:05,192.168.1.193,bhaskar,password,web_portal,SUCCESS,Session opened for user
+2026-09-21 03:29:37,10.0.44.166,chitra,kerberos,rdp,SUCCESS,Login accepted via PAM
+2026-09-21 03:40:44,10.0.7.24,victor,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-21 05:10:58,10.0.38.103,karen,kerberos,rdp,SUCCESS,Session opened for user
+2026-09-21 05:13:24,10.0.27.57,frank,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-21 05:16:07,192.168.1.3,wendy,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-21 05:22:32,203.0.113.45,admin,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 05:22:35,10.0.43.59,zara,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-21 05:22:39,203.0.113.45,ubuntu,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 05:22:51,203.0.113.45,admin,password,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 05:23:00,203.0.113.45,ubuntu,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 05:23:01,203.0.113.45,root,password,rdp,FAILURE,Failed password for invalid user
+2026-09-21 05:23:09,203.0.113.45,admin,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 05:23:16,203.0.113.45,root,password,sshd,FAILURE,Failed password for invalid user
+2026-09-21 05:23:16,203.0.113.45,ubuntu,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 05:23:18,203.0.113.45,admin,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 05:23:18,203.0.113.45,admin,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 05:23:22,203.0.113.45,root,password,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 05:23:23,203.0.113.45,root,password,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 05:23:24,203.0.113.45,ubuntu,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 05:23:35,203.0.113.45,admin,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 05:23:36,203.0.113.45,admin,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 05:23:48,203.0.113.45,admin,password,rdp,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 05:23:56,203.0.113.45,root,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 05:24:00,203.0.113.45,admin,password,rdp,FAILURE,Failed password for invalid user
+2026-09-21 05:24:03,203.0.113.45,root,password,vpn_gateway,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 05:24:24,203.0.113.45,root,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 05:24:31,203.0.113.45,admin,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 05:24:41,203.0.113.45,ubuntu,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 05:24:52,203.0.113.45,admin,password,sshd,FAILURE,Failed password for invalid user
+2026-09-21 05:57:41,10.0.37.225,grace,ssh_key,api_server,SUCCESS,Kerberos TGT validated
+2026-09-21 05:58:22,192.168.1.242,eve,kerberos,web_portal,SUCCESS,Session opened for user
+2026-09-21 06:00:42,192.168.1.242,grace,2fa,sshd,SUCCESS,Session opened for user
+2026-09-21 06:03:10,10.0.9.131,olivia,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 06:32:04,10.0.49.87,bhaskar,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 06:33:02,10.0.42.118,karen,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-21 06:40:04,10.0.16.42,grace,ssh_key,rdp,SUCCESS,Access granted — session initiated
+2026-09-21 06:40:37,10.0.13.181,steve,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-21 06:46:18,192.168.1.249,jack,kerberos,vpn_gateway,SUCCESS,Authentication successful
+2026-09-21 06:47:40,10.0.24.91,alice,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 06:53:26,172.16.5.249,maria,2fa,api_server,SUCCESS,Kerberos TGT validated
+2026-09-21 07:01:12,10.0.15.222,quinn,kerberos,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-21 07:08:31,10.0.18.208,yuki,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 07:09:26,10.0.37.225,chitra,password,api_server,SUCCESS,Authentication successful
+2026-09-21 07:14:04,192.168.1.227,karen,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-21 07:18:29,10.0.6.219,tina,password,api_server,SUCCESS,User authenticated successfully
+2026-09-21 07:19:00,10.0.36.57,maria,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 07:22:44,10.0.15.222,steve,password,sshd,SUCCESS,Authentication successful
+2026-09-21 07:29:02,172.16.1.245,rachel,kerberos,sshd,SUCCESS,User authenticated successfully
+2026-09-21 07:30:08,10.0.37.225,bhaskar,certificate,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 07:32:28,10.0.30.138,zara,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-21 07:40:11,10.0.14.172,eve,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-21 07:40:24,10.0.6.56,xander,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-21 07:44:19,10.0.32.102,wendy,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-21 07:45:13,10.0.15.222,grace,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 07:45:21,192.168.1.185,dev,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-21 07:45:50,10.0.3.207,quinn,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 07:51:41,172.16.2.223,victor,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-21 08:05:49,10.0.24.57,quinn,2fa,sshd,SUCCESS,Session opened for user
+2026-09-21 08:05:56,10.0.2.190,steve,password,vpn_gateway,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 08:06:42,192.168.1.185,nathan,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 08:12:25,10.0.23.155,frank,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-21 08:21:05,192.168.1.120,peter,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 08:25:04,10.0.41.29,tina,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 08:27:16,10.0.3.8,wendy,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-21 08:36:05,172.16.0.88,jenkins,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 08:36:34,172.16.0.88,gitlab,ssh_key,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 08:37:19,172.16.0.88,gitlab,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 08:37:50,172.16.0.88,jenkins,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 08:37:54,172.16.0.88,deploy,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 08:38:16,172.16.0.88,root,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 08:38:57,192.168.1.30,steve,2fa,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-21 08:39:56,172.16.0.88,deploy,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 08:43:15,192.168.1.120,bob,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 08:44:13,10.0.18.117,nathan,2fa,api_server,SUCCESS,Accepted publickey for user
+2026-09-21 08:45:28,10.0.2.190,charlie,2fa,rdp,SUCCESS,Login accepted via PAM
+2026-09-21 08:47:55,10.0.46.81,uma,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-21 08:48:58,10.0.25.25,quinn,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-21 08:51:47,172.16.3.130,eve,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 08:54:35,10.0.24.42,dev,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-21 08:58:12,10.0.21.103,alice,kerberos,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-21 09:00:09,10.0.5.156,olivia,2fa,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-21 09:01:25,10.0.48.27,yuki,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 09:07:06,10.0.35.23,rachel,password,sshd,SUCCESS,Session opened for user
+2026-09-21 09:08:46,10.0.5.12,dev,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 09:10:59,10.0.35.68,eve,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 09:15:26,172.16.5.112,dev,password,rdp,SUCCESS,Authentication successful
+2026-09-21 09:15:35,192.168.1.136,frank,password,sshd,SUCCESS,User authenticated successfully
+2026-09-21 09:19:47,10.0.50.75,karen,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 09:30:16,10.0.5.12,yuki,ssh_key,api_server,FAILURE,Invalid credentials — access denied
+2026-09-21 09:37:48,10.0.23.155,quinn,password,sshd,SUCCESS,Session opened for user
+2026-09-21 09:37:50,10.0.46.81,rachel,ssh_key,rdp,SUCCESS,Authentication successful
+2026-09-21 09:39:18,192.168.1.3,wendy,certificate,sshd,SUCCESS,Authentication successful
+2026-09-21 09:47:06,10.0.41.44,zara,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 09:55:57,10.0.30.98,frank,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 10:09:24,192.168.1.153,grace,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-21 10:11:16,10.0.24.57,chitra,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-21 10:11:31,10.0.17.207,wendy,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-21 10:17:06,10.0.24.91,eve,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 10:17:12,10.0.5.12,dev,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 10:22:35,10.0.24.57,quinn,kerberos,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-21 10:23:51,10.0.48.150,victor,2fa,web_portal,SUCCESS,Session opened for user
+2026-09-21 10:25:20,10.0.6.219,jack,2fa,web_portal,SUCCESS,Session opened for user
+2026-09-21 10:25:42,10.0.36.76,leo,certificate,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 10:29:20,10.0.18.63,karen,kerberos,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 10:31:47,192.168.1.227,uma,password,web_portal,SUCCESS,Authentication successful
+2026-09-21 10:33:52,10.0.28.230,tina,ssh_key,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 10:38:11,10.0.7.24,uma,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-21 10:39:03,10.0.6.219,tina,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-21 10:42:15,10.0.48.144,henry,ssh_key,web_portal,FAILURE,Failed password for invalid user
+2026-09-21 10:42:27,10.0.6.56,diana,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-21 10:44:18,10.0.6.56,eve,2fa,api_server,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 10:44:23,10.0.30.98,eve,ssh_key,api_server,SUCCESS,Login accepted via PAM
+2026-09-21 10:46:12,10.0.18.17,henry,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 10:51:47,10.0.18.63,dev,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 10:53:58,10.0.43.59,charlie,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 10:54:27,192.168.1.17,grace,password,rdp,SUCCESS,Accepted publickey for user
+2026-09-21 10:58:03,172.16.2.223,wendy,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-21 11:02:02,192.168.1.41,frank,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-21 11:05:46,192.168.1.41,chitra,kerberos,api_server,SUCCESS,Session opened for user
+2026-09-21 11:05:48,192.168.1.3,dev,password,web_portal,SUCCESS,Session opened for user
+2026-09-21 11:10:01,10.0.16.42,leo,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-21 11:11:35,10.0.14.234,tina,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 11:19:45,10.0.45.140,maria,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-21 11:19:59,10.0.14.234,karen,ssh_key,sshd,FAILURE,Failed password for invalid user
+2026-09-21 11:20:33,192.168.1.40,victor,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 11:21:43,192.168.1.193,tina,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-21 11:22:50,172.16.6.196,charlie,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 11:22:53,10.0.18.17,rachel,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-21 11:23:27,10.0.18.254,chitra,ssh_key,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 11:23:32,10.0.41.29,steve,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-21 11:26:44,10.0.15.36,yuki,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-21 11:29:42,10.0.38.103,xander,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 11:39:47,10.0.18.63,nathan,password,api_server,SUCCESS,Kerberos TGT validated
+2026-09-21 11:40:47,10.0.18.117,henry,ssh_key,api_server,SUCCESS,User authenticated successfully
+2026-09-21 11:42:01,10.0.14.234,peter,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 11:42:50,172.16.6.196,arun,certificate,web_portal,SUCCESS,User authenticated successfully
+2026-09-21 11:46:37,10.0.37.225,iris,kerberos,rdp,SUCCESS,Access granted — session initiated
+2026-09-21 11:48:25,10.0.7.98,yuki,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-21 11:50:43,10.0.14.168,karen,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-21 11:54:40,10.0.23.217,quinn,2fa,sshd,SUCCESS,Session opened for user
+2026-09-21 11:59:32,192.168.1.227,zara,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 12:05:25,10.0.18.117,leo,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 12:14:53,10.0.38.103,iris,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-21 12:21:41,10.0.8.250,chitra,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-21 12:22:34,10.0.27.57,iris,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 12:24:22,192.168.1.65,rachel,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 12:26:59,10.0.36.57,arun,2fa,rdp,SUCCESS,Kerberos TGT validated
+2026-09-21 12:32:21,192.168.1.161,bob,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-21 12:33:22,10.0.5.12,eve,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 12:34:44,10.0.14.234,zara,certificate,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 12:35:04,10.0.18.180,quinn,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 12:35:52,10.0.41.159,olivia,password,sshd,SUCCESS,User authenticated successfully
+2026-09-21 12:39:28,10.0.39.7,frank,password,sshd,SUCCESS,User authenticated successfully
+2026-09-21 12:41:22,10.0.4.59,jack,password,rdp,SUCCESS,Kerberos TGT validated
+2026-09-21 12:41:41,10.0.41.214,maria,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 12:41:48,172.16.6.29,leo,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 12:43:37,10.0.18.117,wendy,password,api_server,SUCCESS,Login accepted via PAM
+2026-09-21 12:43:43,192.168.1.13,chitra,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 12:43:47,10.0.32.24,henry,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-21 12:50:54,10.0.48.27,chitra,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 12:55:28,10.0.39.7,steve,password,web_portal,SUCCESS,Authentication successful
+2026-09-21 12:58:58,192.168.1.65,maria,password,api_server,SUCCESS,Session opened for user
+2026-09-21 13:15:06,172.16.2.223,karen,ssh_key,rdp,SUCCESS,Authentication successful
+2026-09-21 13:20:26,10.0.7.24,grace,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 13:29:14,10.0.10.68,alice,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 13:31:55,172.16.3.130,henry,password,rdp,SUCCESS,Login accepted via PAM
+2026-09-21 13:33:05,10.0.14.172,maria,password,sshd,SUCCESS,Session opened for user
+2026-09-21 13:35:17,192.0.2.100,root,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 13:35:42,192.0.2.100,guest,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 13:35:46,192.0.2.100,support,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 13:36:01,192.0.2.100,jane,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 13:36:09,192.0.2.100,root,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 13:36:12,192.0.2.100,support,password,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 13:36:28,192.0.2.100,user1,ssh_key,rdp,FAILURE,Invalid credentials — access denied
+2026-09-21 13:36:36,192.0.2.100,guest,ssh_key,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 13:36:52,192.0.2.100,john,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 13:37:06,192.0.2.100,guest,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 13:37:37,192.0.2.100,support,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 13:38:08,192.0.2.100,root,password,rdp,FAILURE,Invalid credentials — access denied
+2026-09-21 13:38:11,192.0.2.100,user1,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 13:38:32,192.0.2.100,guest,password,vpn_gateway,FAILURE,Failed password for invalid user
+2026-09-21 13:38:47,192.0.2.100,jane,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 13:38:49,192.0.2.100,support,ssh_key,vpn_gateway,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 13:38:55,192.0.2.100,guest,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 13:39:00,192.0.2.100,admin,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 13:39:10,192.0.2.100,john,password,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 13:39:12,192.0.2.100,support,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 13:39:17,192.0.2.100,admin,password,vpn_gateway,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 13:39:27,192.0.2.100,john,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 13:39:44,192.0.2.100,john,password,rdp,FAILURE,Failed password for invalid user
+2026-09-21 13:39:49,192.0.2.100,user1,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 13:42:01,192.168.1.153,charlie,ssh_key,rdp,SUCCESS,Login accepted via PAM
+2026-09-21 13:44:14,10.0.16.42,jack,2fa,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 13:59:53,192.168.1.203,leo,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 14:03:05,10.0.30.98,grace,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 14:03:20,192.168.1.17,diana,ssh_key,api_server,SUCCESS,User authenticated successfully
+2026-09-21 14:04:33,10.0.21.103,chitra,certificate,api_server,SUCCESS,Kerberos TGT validated
+2026-09-21 14:04:55,10.0.5.156,peter,certificate,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 14:09:23,172.16.5.197,maria,kerberos,web_portal,SUCCESS,Session opened for user
+2026-09-21 14:10:25,10.0.38.109,olivia,kerberos,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 14:10:59,10.0.8.250,bob,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-21 14:14:43,10.0.48.27,wendy,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-21 14:17:56,192.168.1.175,uma,ssh_key,api_server,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 14:20:09,172.16.9.196,jack,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-21 14:21:36,10.0.8.250,bhaskar,kerberos,api_server,SUCCESS,Kerberos TGT validated
+2026-09-21 14:22:49,10.0.37.225,jack,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 14:27:20,10.0.3.207,arun,password,sshd,SUCCESS,Authentication successful
+2026-09-21 14:28:22,172.16.3.139,iris,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-21 14:32:30,172.16.5.249,zara,certificate,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-21 14:36:13,192.168.1.249,olivia,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 14:39:06,10.0.43.59,bhaskar,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 14:41:43,172.16.1.245,wendy,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-21 14:41:54,10.0.36.57,iris,password,rdp,SUCCESS,User authenticated successfully
+2026-09-21 14:44:58,10.0.48.150,uma,certificate,web_portal,SUCCESS,Session opened for user
+2026-09-21 14:53:34,10.0.13.181,karen,password,rdp,SUCCESS,User authenticated successfully
+2026-09-21 14:53:37,10.0.30.98,charlie,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-21 14:56:29,10.0.44.166,rachel,2fa,api_server,SUCCESS,Accepted publickey for user
+2026-09-21 14:57:02,192.168.1.249,karen,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 14:57:38,10.0.41.214,rachel,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-21 15:04:55,10.0.14.234,bhaskar,certificate,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 15:10:13,10.0.32.24,steve,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 15:11:17,10.0.38.103,eve,password,sshd,SUCCESS,Session opened for user
+2026-09-21 15:15:47,10.0.14.172,henry,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 15:24:08,10.0.21.103,yuki,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-21 15:24:30,10.0.28.88,iris,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 15:27:44,10.0.14.168,nathan,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 15:31:45,192.168.1.161,dev,password,sshd,SUCCESS,Authentication successful
+2026-09-21 15:38:33,192.168.1.29,karen,kerberos,api_server,SUCCESS,Access granted — session initiated
+2026-09-21 15:49:56,10.0.18.40,peter,2fa,web_portal,SUCCESS,Session opened for user
+2026-09-21 15:51:42,10.0.44.190,arun,2fa,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-21 15:52:22,192.168.1.3,chitra,kerberos,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 15:53:40,172.16.2.223,zara,ssh_key,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-21 15:56:51,172.16.6.196,zara,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-21 16:05:18,10.0.32.102,henry,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 16:09:39,10.0.37.225,jack,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-21 16:13:17,10.0.36.76,rachel,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-21 16:23:47,172.16.2.223,steve,certificate,web_portal,SUCCESS,Authentication successful
+2026-09-21 16:27:36,172.16.5.216,zara,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-21 16:32:20,10.0.32.102,charlie,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 16:41:56,10.0.35.23,zara,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-21 16:42:22,198.51.100.22,test,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 16:42:27,198.51.100.22,test,ssh_key,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-21 16:42:42,198.51.100.22,admin,password,rdp,FAILURE,Failed password for invalid user
+2026-09-21 16:42:45,198.51.100.22,test,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 16:42:49,198.51.100.22,test,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 16:42:50,198.51.100.22,admin,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 16:43:53,198.51.100.22,administrator,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 16:44:10,198.51.100.22,admin,password,sshd,FAILURE,Failed password for invalid user
+2026-09-21 16:44:12,198.51.100.22,administrator,password,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 16:44:28,198.51.100.22,administrator,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 16:44:44,10.0.30.98,steve,kerberos,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 16:44:49,198.51.100.22,test,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-21 16:54:05,10.0.38.109,uma,password,sshd,SUCCESS,User authenticated successfully
+2026-09-21 16:55:33,10.0.18.40,olivia,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-21 16:58:54,192.168.1.99,charlie,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-21 17:02:39,10.0.48.144,charlie,ssh_key,api_server,FAILURE,Failed password for invalid user
+2026-09-21 17:02:40,10.0.15.36,maria,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 17:05:34,10.0.50.75,xander,password,sshd,SUCCESS,User authenticated successfully
+2026-09-21 17:07:50,10.0.35.187,victor,password,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 17:08:33,198.51.100.22,test,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 17:09:04,10.0.49.87,peter,certificate,sshd,SUCCESS,Accepted publickey for user
+2026-09-21 17:09:16,198.51.100.22,administrator,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 17:09:17,198.51.100.22,administrator,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 17:09:36,198.51.100.22,admin,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 17:09:50,198.51.100.22,test,password,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 17:10:00,198.51.100.22,test,password,rdp,FAILURE,Invalid credentials — access denied
+2026-09-21 17:10:12,198.51.100.22,administrator,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-21 17:10:12,198.51.100.22,admin,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-21 17:10:16,198.51.100.22,admin,password,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 17:10:25,198.51.100.22,admin,password,sshd,FAILURE,Failed password for invalid user
+2026-09-21 17:10:37,198.51.100.22,test,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 17:10:44,198.51.100.22,administrator,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-21 17:10:53,198.51.100.22,admin,password,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 17:11:01,198.51.100.22,administrator,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-21 17:11:46,198.51.100.22,administrator,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-21 17:11:53,198.51.100.22,administrator,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-21 17:15:45,172.16.9.236,quinn,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-21 17:35:47,10.0.39.7,rachel,password,sshd,SUCCESS,Authentication successful
+2026-09-21 18:05:07,10.0.13.181,arun,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-21 18:12:16,10.0.11.179,bob,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-21 18:34:18,10.0.3.8,uma,ssh_key,rdp,SUCCESS,Login accepted via PAM
+2026-09-21 18:44:38,10.0.23.217,wendy,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 18:50:24,10.0.50.75,peter,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-21 18:54:31,192.168.1.185,bob,password,web_portal,SUCCESS,Authentication successful
+2026-09-21 19:12:04,10.0.15.130,steve,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 19:31:19,10.0.23.217,henry,ssh_key,api_server,SUCCESS,Login accepted via PAM
+2026-09-21 19:47:23,10.0.45.140,maria,password,api_server,SUCCESS,Authentication successful
+2026-09-21 19:49:09,192.168.1.221,olivia,password,sshd,SUCCESS,User authenticated successfully
+2026-09-21 19:59:30,192.168.1.17,victor,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-21 20:24:00,192.168.1.13,bob,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-21 20:32:41,10.0.35.187,peter,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 20:41:47,192.168.1.109,peter,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-21 20:43:55,172.16.3.130,dev,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-21 20:50:59,10.0.6.56,diana,ssh_key,rdp,SUCCESS,Kerberos TGT validated
+2026-09-21 21:02:30,10.0.29.151,xander,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-21 21:06:45,10.0.10.68,rachel,certificate,rdp,SUCCESS,Authentication successful
+2026-09-21 21:13:25,192.168.1.13,charlie,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-21 21:34:59,10.0.14.168,iris,ssh_key,api_server,SUCCESS,Session opened for user
+2026-09-21 21:48:40,10.0.14.172,wendy,password,sshd,SUCCESS,Authentication successful
+2026-09-21 21:52:15,10.0.24.148,arun,ssh_key,rdp,SUCCESS,Kerberos TGT validated
+2026-09-21 21:58:44,10.0.39.7,yuki,password,api_server,FAILURE,Invalid credentials — access denied
+2026-09-21 22:18:16,192.168.1.193,olivia,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-21 22:32:17,10.0.29.151,eve,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-21 22:57:58,10.0.28.88,olivia,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-21 23:52:48,10.0.21.103,uma,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 00:45:49,192.168.1.136,peter,ssh_key,rdp,SUCCESS,Kerberos TGT validated
+2026-09-22 02:36:43,192.168.1.194,karen,kerberos,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 02:42:25,10.0.18.40,nathan,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-22 02:47:42,10.0.6.56,olivia,2fa,rdp,SUCCESS,Access granted — session initiated
+2026-09-22 03:06:18,10.0.36.76,iris,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 04:27:48,192.168.1.249,iris,kerberos,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-22 04:52:28,10.0.25.21,diana,kerberos,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 05:05:20,10.0.37.225,iris,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-22 05:27:47,192.168.1.138,karen,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-22 05:55:59,172.16.5.216,alice,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-22 06:12:20,10.0.41.177,peter,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 06:16:13,192.168.1.221,bob,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 06:20:29,10.0.15.130,chitra,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 06:24:38,172.16.4.40,olivia,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-22 06:25:11,10.0.7.24,arun,certificate,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 07:13:38,10.0.46.81,alice,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-22 07:14:56,192.168.1.249,tina,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-22 07:18:28,192.168.1.30,grace,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-22 07:24:09,10.0.18.254,frank,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 07:26:42,192.168.1.175,maria,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 07:31:09,10.0.7.24,karen,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 07:52:25,10.0.41.44,charlie,ssh_key,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-22 07:52:51,192.168.1.249,dev,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-22 08:10:21,10.0.18.17,rachel,certificate,sshd,SUCCESS,Session opened for user
+2026-09-22 08:17:05,192.168.1.161,frank,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 08:17:49,10.0.15.222,diana,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 08:20:12,10.0.3.187,olivia,password,rdp,SUCCESS,Accepted publickey for user
+2026-09-22 08:40:46,10.0.43.59,iris,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 08:42:00,10.0.3.8,henry,password,api_server,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-22 08:44:24,10.0.32.102,peter,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-22 08:46:56,10.0.24.57,uma,2fa,rdp,SUCCESS,Accepted publickey for user
+2026-09-22 09:00:18,10.0.3.8,xander,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-22 09:00:33,192.168.1.120,yuki,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-22 09:01:59,192.168.1.153,rachel,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 09:08:30,192.168.1.109,eve,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-22 09:09:54,10.0.14.172,wendy,ssh_key,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 09:11:33,10.0.49.87,charlie,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-22 09:12:50,192.168.1.41,chitra,ssh_key,rdp,SUCCESS,User authenticated successfully
+2026-09-22 09:17:07,10.0.3.187,rachel,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-22 09:18:21,172.16.3.139,karen,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-22 09:35:14,10.0.4.59,peter,certificate,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-22 09:39:43,172.16.3.139,tina,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-22 09:41:17,192.168.1.136,uma,password,api_server,SUCCESS,Login accepted via PAM
+2026-09-22 09:43:28,10.0.21.103,alice,2fa,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-22 09:54:07,192.168.1.98,olivia,2fa,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-22 10:01:07,10.0.18.208,dev,kerberos,rdp,SUCCESS,Authentication successful
+2026-09-22 10:01:07,10.0.2.190,frank,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-22 10:06:36,10.0.44.190,quinn,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-22 10:06:55,192.168.1.161,bhaskar,password,api_server,SUCCESS,Session opened for user
+2026-09-22 10:11:43,172.16.1.245,nathan,kerberos,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-22 10:17:38,10.0.35.23,rachel,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-22 10:21:10,192.168.1.109,diana,kerberos,api_server,SUCCESS,Authentication successful
+2026-09-22 10:23:59,192.168.1.3,dev,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 10:26:25,172.16.9.196,iris,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-22 10:29:01,45.33.32.156,root,password,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-22 10:29:07,45.33.32.156,admin,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-22 10:29:13,45.33.32.156,oracle,password,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-22 10:29:13,45.33.32.156,root,password,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-22 10:29:56,45.33.32.156,oracle,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-22 10:29:56,45.33.32.156,admin,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-22 10:30:27,45.33.32.156,oracle,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-22 10:30:31,45.33.32.156,test,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-22 10:30:41,45.33.32.156,test,password,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-22 10:30:55,45.33.32.156,test,ssh_key,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-22 10:31:54,10.0.35.23,steve,password,sshd,SUCCESS,User authenticated successfully
+2026-09-22 10:32:12,45.33.32.156,admin,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-22 10:32:33,45.33.32.156,admin,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-22 10:32:41,45.33.32.156,postgres,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-22 10:32:47,45.33.32.156,root,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-22 10:33:03,45.33.32.156,postgres,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-22 10:33:09,45.33.32.156,oracle,ssh_key,web_portal,FAILURE,Failed password for invalid user
+2026-09-22 10:33:24,45.33.32.156,oracle,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-22 10:33:33,45.33.32.156,postgres,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-22 10:33:33,45.33.32.156,admin,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-22 10:33:55,45.33.32.156,oracle,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-22 10:36:27,10.0.5.12,victor,password,web_portal,SUCCESS,Session opened for user
+2026-09-22 10:37:02,172.16.3.117,olivia,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-22 10:40:44,192.168.1.175,maria,kerberos,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 10:46:46,10.0.5.12,xander,password,api_server,SUCCESS,Authentication successful
+2026-09-22 10:49:06,192.168.1.3,diana,password,api_server,SUCCESS,Authentication successful
+2026-09-22 10:50:13,10.0.45.140,xander,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-22 10:51:35,10.0.25.21,eve,kerberos,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 10:56:23,172.16.6.196,steve,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-22 11:00:22,10.0.46.81,jack,password,rdp,SUCCESS,User authenticated successfully
+2026-09-22 11:08:01,172.16.5.249,peter,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 11:12:00,10.0.13.181,uma,2fa,sshd,SUCCESS,Authentication successful
+2026-09-22 11:12:54,172.16.3.139,peter,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-22 11:14:57,172.16.5.216,maria,ssh_key,api_server,SUCCESS,Accepted publickey for user
+2026-09-22 11:20:45,10.0.32.102,maria,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-22 11:26:35,192.168.1.98,quinn,password,sshd,SUCCESS,Authentication successful
+2026-09-22 11:39:17,172.16.9.236,leo,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-22 11:40:23,192.168.1.175,diana,password,sshd,SUCCESS,User authenticated successfully
+2026-09-22 11:44:08,192.168.1.98,yuki,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-22 11:46:25,192.168.1.142,peter,password,web_portal,SUCCESS,Session opened for user
+2026-09-22 11:47:04,172.16.5.249,maria,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 11:55:02,172.16.4.40,wendy,ssh_key,api_server,SUCCESS,Kerberos TGT validated
+2026-09-22 12:05:17,192.168.1.98,maria,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 12:08:17,192.168.1.40,xander,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-22 12:18:27,172.16.5.197,charlie,certificate,web_portal,SUCCESS,Accepted publickey for user
+2026-09-22 12:23:07,192.168.1.136,steve,certificate,sshd,SUCCESS,User authenticated successfully
+2026-09-22 12:24:01,10.0.32.24,peter,password,web_portal,SUCCESS,Authentication successful
+2026-09-22 12:27:11,192.168.1.242,iris,password,api_server,SUCCESS,Kerberos TGT validated
+2026-09-22 12:51:19,192.168.1.227,xander,password,rdp,SUCCESS,User authenticated successfully
+2026-09-22 12:51:20,10.0.16.42,chitra,kerberos,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-22 12:57:58,192.168.1.193,bhaskar,password,web_portal,SUCCESS,Authentication successful
+2026-09-22 12:58:56,192.168.1.153,rachel,certificate,web_portal,SUCCESS,Authentication successful
+2026-09-22 12:59:27,10.0.37.225,jack,password,vpn_gateway,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-22 13:04:21,10.0.16.42,frank,2fa,api_server,SUCCESS,Access granted — session initiated
+2026-09-22 13:05:19,10.0.7.24,grace,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 13:10:19,192.168.1.99,peter,password,sshd,SUCCESS,Session opened for user
+2026-09-22 13:14:24,10.0.35.68,charlie,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-22 13:14:38,10.0.48.27,henry,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-22 13:16:19,10.0.50.199,steve,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-22 13:27:47,10.0.36.57,rachel,password,web_portal,SUCCESS,Session opened for user
+2026-09-22 13:33:21,10.0.43.59,yuki,password,sshd,SUCCESS,User authenticated successfully
+2026-09-22 13:33:41,10.0.11.179,chitra,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-22 13:35:11,10.0.7.24,olivia,ssh_key,api_server,SUCCESS,Login accepted via PAM
+2026-09-22 13:36:56,192.168.1.193,jack,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-22 13:37:22,10.0.36.76,iris,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-22 13:39:14,172.16.2.223,yuki,password,api_server,SUCCESS,User authenticated successfully
+2026-09-22 13:40:04,10.0.9.64,grace,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-22 13:40:32,10.0.48.144,steve,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-22 13:40:47,10.0.5.12,uma,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-22 13:42:51,10.0.24.57,leo,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 13:44:27,192.168.1.153,leo,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 13:46:03,192.168.1.136,steve,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-22 13:47:50,10.0.24.91,iris,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-22 13:51:20,10.0.35.23,nathan,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 13:58:05,10.0.29.151,diana,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-22 13:58:12,10.0.15.36,maria,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 14:03:11,192.168.1.194,henry,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 14:06:50,10.0.3.187,wendy,kerberos,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 14:09:06,10.0.41.44,xander,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-22 14:09:14,10.0.36.76,diana,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-22 14:13:14,10.0.1.195,chitra,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 14:15:56,10.0.25.25,rachel,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-22 14:17:53,10.0.4.59,xander,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-22 14:18:16,192.168.1.17,xander,2fa,api_server,SUCCESS,Login accepted via PAM
+2026-09-22 14:21:02,172.16.9.196,uma,certificate,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 14:26:37,172.16.6.196,karen,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 14:37:27,192.168.1.30,eve,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 14:37:33,10.0.49.87,henry,kerberos,sshd,SUCCESS,User authenticated successfully
+2026-09-22 14:38:18,10.0.16.42,jack,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-22 14:39:21,10.0.30.98,charlie,certificate,sshd,SUCCESS,Kerberos TGT validated
+2026-09-22 14:47:45,192.168.1.249,bob,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 14:51:47,10.0.25.21,bhaskar,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-22 14:53:13,10.0.43.59,tina,password,api_server,SUCCESS,User authenticated successfully
+2026-09-22 14:55:49,10.0.35.68,yuki,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 15:02:38,10.0.35.23,olivia,2fa,rdp,SUCCESS,Session opened for user
+2026-09-22 15:08:55,10.0.25.25,charlie,2fa,rdp,SUCCESS,Kerberos TGT validated
+2026-09-22 15:10:29,172.16.9.236,maria,certificate,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 15:12:49,10.0.36.51,xander,password,sshd,SUCCESS,Session opened for user
+2026-09-22 15:19:39,10.0.25.21,arun,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 15:21:54,10.0.38.109,wendy,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-22 15:26:53,172.16.3.130,peter,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-22 15:30:47,10.0.36.76,diana,kerberos,rdp,SUCCESS,Session opened for user
+2026-09-22 15:31:31,10.0.18.254,zara,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-22 15:32:49,172.16.4.40,victor,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-22 15:33:16,192.168.1.17,jack,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 15:34:12,192.168.1.136,peter,password,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-22 15:37:50,10.0.36.51,arun,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-22 15:38:11,10.0.17.207,wendy,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-22 15:40:33,192.168.1.136,charlie,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 15:40:44,192.168.1.249,leo,password,web_portal,SUCCESS,Session opened for user
+2026-09-22 15:47:53,10.0.41.159,arun,password,api_server,SUCCESS,Session opened for user
+2026-09-22 15:49:33,10.0.14.234,iris,certificate,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-22 15:50:41,10.0.46.81,diana,2fa,api_server,SUCCESS,Session opened for user
+2026-09-22 15:53:57,192.168.1.99,chitra,2fa,sshd,SUCCESS,Session opened for user
+2026-09-22 15:54:59,10.0.24.42,bob,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-22 15:59:14,10.0.25.25,victor,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-22 16:21:59,10.0.27.57,yuki,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-22 16:23:34,10.0.46.81,arun,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 16:30:29,172.16.5.249,quinn,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-22 16:30:44,172.16.1.245,tina,password,sshd,SUCCESS,Authentication successful
+2026-09-22 16:31:50,10.0.7.98,yuki,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 16:36:16,192.168.1.161,wendy,certificate,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-22 16:39:00,10.0.41.159,olivia,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-22 16:43:10,10.0.28.88,alice,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-22 16:43:27,10.0.13.181,zara,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-22 16:51:18,10.0.38.109,grace,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-22 16:56:46,192.168.1.193,henry,password,web_portal,SUCCESS,Authentication successful
+2026-09-22 16:56:56,10.0.48.144,alice,password,sshd,SUCCESS,User authenticated successfully
+2026-09-22 17:11:35,10.0.48.144,iris,password,api_server,SUCCESS,Session opened for user
+2026-09-22 17:19:18,192.168.1.29,grace,2fa,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 17:20:13,10.0.17.207,uma,password,api_server,SUCCESS,Login accepted via PAM
+2026-09-22 17:25:30,10.0.36.76,steve,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-22 17:28:29,10.0.38.103,jack,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-22 17:29:29,192.168.1.40,steve,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-22 17:43:14,10.0.48.144,nathan,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-22 17:45:42,10.0.36.76,olivia,kerberos,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 17:47:13,192.168.1.29,alice,password,web_portal,SUCCESS,Session opened for user
+2026-09-22 17:51:24,10.0.48.150,leo,2fa,rdp,SUCCESS,User authenticated successfully
+2026-09-22 17:54:48,10.0.14.168,dev,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-22 18:02:21,192.168.1.227,uma,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 18:15:02,10.0.14.246,victor,password,api_server,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-22 18:17:01,172.16.3.130,wendy,ssh_key,api_server,SUCCESS,Access granted — session initiated
+2026-09-22 18:20:04,192.168.1.13,rachel,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-22 18:26:07,10.0.45.140,dev,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 18:39:03,192.168.1.153,alice,kerberos,web_portal,SUCCESS,Access granted — session initiated
+2026-09-22 18:44:25,192.168.1.153,olivia,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-22 18:44:53,10.0.2.190,yuki,password,api_server,FAILURE,Failed password for invalid user
+2026-09-22 18:55:44,10.0.42.118,nathan,password,api_server,SUCCESS,Kerberos TGT validated
+2026-09-22 18:56:45,172.16.6.29,yuki,2fa,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-22 18:57:26,10.0.41.177,uma,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-22 19:32:19,172.16.9.196,maria,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 19:48:09,192.168.1.138,grace,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-22 19:53:37,192.168.1.221,peter,ssh_key,api_server,SUCCESS,User authenticated successfully
+2026-09-22 19:53:51,10.0.17.207,chitra,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-22 20:10:28,172.16.3.117,yuki,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-22 20:23:33,192.168.1.203,tina,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-22 20:24:05,192.168.1.203,maria,password,api_server,SUCCESS,Authentication successful
+2026-09-22 20:56:31,10.0.32.24,grace,password,web_portal,SUCCESS,Authentication successful
+2026-09-22 21:29:49,10.0.7.98,jack,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-22 21:57:30,192.168.1.142,wendy,ssh_key,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-22 22:15:35,10.0.36.51,maria,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-23 00:13:54,10.0.0.254,backup_admin,password,vpn_gateway,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 00:14:19,10.0.0.254,backup_admin,password,rdp,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 00:14:33,10.0.0.254,backup_admin,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 00:14:34,10.0.0.254,backup_admin,password,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 00:15:17,10.0.0.254,backup_admin,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 00:16:38,10.0.0.254,backup_admin,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 00:16:42,10.0.0.254,backup_admin,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 00:17:16,10.0.0.254,backup_admin,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 00:17:52,10.0.0.254,svc_account,password,rdp,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 01:27:44,10.0.7.24,rachel,password,api_server,SUCCESS,Kerberos TGT validated
+2026-09-23 01:30:18,10.0.45.140,jack,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-23 01:38:13,203.0.113.45,admin,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-23 01:38:15,203.0.113.45,root,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 01:38:27,203.0.113.45,ubuntu,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 01:38:37,203.0.113.45,admin,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 01:38:49,203.0.113.45,ubuntu,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 01:38:54,203.0.113.45,admin,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 01:39:04,203.0.113.45,root,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 01:39:08,203.0.113.45,ubuntu,password,vpn_gateway,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 01:39:16,203.0.113.45,root,password,rdp,FAILURE,Failed password for invalid user
+2026-09-23 01:39:17,203.0.113.45,admin,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 01:39:45,203.0.113.45,ubuntu,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-23 01:39:47,203.0.113.45,ubuntu,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 01:39:48,203.0.113.45,root,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 01:39:52,203.0.113.45,root,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 01:39:53,203.0.113.45,ubuntu,ssh_key,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 01:40:01,203.0.113.45,admin,password,web_portal,FAILURE,Failed password for invalid user
+2026-09-23 01:40:04,203.0.113.45,root,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 01:40:07,203.0.113.45,root,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 01:40:30,203.0.113.45,admin,ssh_key,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 01:40:45,203.0.113.45,ubuntu,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 01:40:47,203.0.113.45,root,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 01:40:59,203.0.113.45,ubuntu,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 01:40:59,203.0.113.45,root,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 01:41:32,172.16.1.245,yuki,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-23 01:58:08,10.0.6.56,uma,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 02:35:52,10.0.49.87,rachel,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-23 02:46:46,10.0.41.214,victor,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 02:53:43,172.16.5.249,bhaskar,password,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 03:03:41,10.0.18.254,uma,ssh_key,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-23 04:20:56,10.0.35.187,nathan,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-23 04:59:54,192.168.1.227,karen,certificate,web_portal,SUCCESS,Accepted publickey for user
+2026-09-23 05:21:22,192.0.2.100,jane,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-23 05:21:30,192.0.2.100,admin,ssh_key,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 05:21:33,192.0.2.100,support,ssh_key,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 05:21:33,192.0.2.100,jane,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 05:21:43,192.0.2.100,admin,password,rdp,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 05:22:02,192.0.2.100,guest,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 05:22:14,192.0.2.100,user1,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 05:22:16,192.0.2.100,guest,ssh_key,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 05:22:24,192.0.2.100,admin,password,rdp,FAILURE,Failed password for invalid user
+2026-09-23 05:22:36,192.0.2.100,support,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 05:22:37,192.0.2.100,jane,password,rdp,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 05:22:42,192.0.2.100,guest,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 05:22:42,192.0.2.100,guest,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 05:23:08,192.0.2.100,support,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 05:23:14,192.0.2.100,root,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 05:23:20,192.0.2.100,root,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 05:23:24,192.0.2.100,admin,ssh_key,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 05:23:47,192.0.2.100,support,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 05:23:48,192.0.2.100,root,password,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 05:23:52,192.0.2.100,root,password,vpn_gateway,FAILURE,Failed password for invalid user
+2026-09-23 05:24:03,192.0.2.100,jane,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-23 05:24:11,192.0.2.100,admin,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 05:24:16,192.0.2.100,support,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 05:24:48,192.0.2.100,guest,password,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-23 05:24:48,192.0.2.100,jane,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 05:24:48,192.0.2.100,root,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 05:24:50,192.0.2.100,root,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 05:24:59,192.0.2.100,user1,password,rdp,FAILURE,Failed password for invalid user
+2026-09-23 05:25:07,192.0.2.100,support,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 05:25:21,192.0.2.100,guest,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 05:25:28,192.0.2.100,user1,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 05:25:31,192.0.2.100,root,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 05:25:33,192.0.2.100,user1,password,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 05:25:39,192.0.2.100,root,ssh_key,rdp,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 05:25:45,192.0.2.100,john,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 05:25:47,192.0.2.100,support,password,rdp,FAILURE,Invalid credentials — access denied
+2026-09-23 05:25:52,192.0.2.100,support,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 05:25:52,192.0.2.100,support,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 06:03:18,192.168.1.65,bhaskar,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-23 06:08:33,192.168.1.41,grace,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 06:09:51,10.0.3.8,steve,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 06:15:07,10.0.3.187,henry,password,sshd,SUCCESS,Authentication successful
+2026-09-23 06:15:11,10.0.24.57,rachel,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 06:20:27,10.0.35.187,bhaskar,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 06:34:18,10.0.3.8,chitra,kerberos,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 06:35:47,10.0.9.131,chitra,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-23 06:36:52,10.0.15.222,alice,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 06:54:50,10.0.35.187,zara,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 06:56:21,10.0.48.150,xander,password,api_server,SUCCESS,Authentication successful
+2026-09-23 06:59:58,172.16.6.196,grace,ssh_key,rdp,SUCCESS,Kerberos TGT validated
+2026-09-23 07:04:14,10.0.24.91,maria,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 07:08:59,10.0.43.59,rachel,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 07:10:21,10.0.15.130,nathan,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-23 07:14:28,192.168.1.249,zara,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 07:21:01,10.0.16.42,jack,certificate,sshd,SUCCESS,Authentication successful
+2026-09-23 07:22:55,10.0.13.181,victor,2fa,rdp,SUCCESS,Login accepted via PAM
+2026-09-23 07:33:53,192.168.1.142,frank,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-23 07:35:05,172.16.9.196,grace,ssh_key,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 07:37:04,10.0.18.40,peter,ssh_key,sshd,SUCCESS,Session opened for user
+2026-09-23 07:40:36,192.168.1.175,leo,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-23 07:45:41,10.0.18.117,frank,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-23 07:47:17,172.16.5.197,henry,password,sshd,SUCCESS,User authenticated successfully
+2026-09-23 07:52:02,172.16.9.156,henry,password,sshd,SUCCESS,Session opened for user
+2026-09-23 07:52:10,10.0.41.29,jack,ssh_key,api_server,SUCCESS,Access granted — session initiated
+2026-09-23 08:06:38,10.0.35.23,yuki,ssh_key,rdp,SUCCESS,Accepted publickey for user
+2026-09-23 08:11:46,172.16.6.196,quinn,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-23 08:16:35,10.0.35.68,dev,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 08:16:43,172.16.5.112,yuki,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-23 08:18:20,192.168.1.153,jack,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-23 08:23:52,10.0.18.117,olivia,password,api_server,SUCCESS,Session opened for user
+2026-09-23 08:27:50,10.0.24.57,maria,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-23 08:35:16,10.0.46.81,bhaskar,password,api_server,SUCCESS,Login accepted via PAM
+2026-09-23 08:41:46,172.16.5.216,steve,ssh_key,rdp,SUCCESS,Kerberos TGT validated
+2026-09-23 08:47:11,10.0.24.148,bhaskar,password,web_portal,SUCCESS,Authentication successful
+2026-09-23 08:48:41,10.0.24.57,charlie,certificate,api_server,SUCCESS,User authenticated successfully
+2026-09-23 08:51:54,10.0.37.225,bhaskar,password,sshd,SUCCESS,Session opened for user
+2026-09-23 08:55:50,10.0.38.109,peter,certificate,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 09:02:04,192.168.1.120,charlie,2fa,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-23 09:05:15,10.0.46.167,leo,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-23 09:12:47,192.168.1.29,frank,2fa,rdp,SUCCESS,User authenticated successfully
+2026-09-23 09:14:29,10.0.44.190,tina,password,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 09:15:06,10.0.28.230,bob,ssh_key,rdp,SUCCESS,Login accepted via PAM
+2026-09-23 09:19:10,10.0.6.56,chitra,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-23 09:23:08,10.0.7.98,xander,kerberos,vpn_gateway,SUCCESS,Authentication successful
+2026-09-23 09:24:12,172.16.4.40,grace,2fa,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 09:24:14,10.0.7.98,bhaskar,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 09:28:04,192.168.1.99,wendy,password,sshd,SUCCESS,Authentication successful
+2026-09-23 09:30:12,10.0.25.25,henry,ssh_key,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 09:33:57,10.0.24.148,jack,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 09:46:12,10.0.35.68,nathan,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 09:49:12,10.0.36.76,diana,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 10:01:55,192.168.1.17,leo,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-23 10:03:38,192.168.1.193,alice,2fa,vpn_gateway,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 10:04:04,192.0.2.100,root,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 10:04:05,192.0.2.100,jane,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 10:04:13,192.0.2.100,support,password,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 10:04:36,192.0.2.100,root,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 10:04:48,192.0.2.100,jane,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 10:04:56,192.0.2.100,jane,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 10:05:00,192.0.2.100,jane,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 10:05:08,192.0.2.100,guest,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 10:05:30,10.0.3.187,bhaskar,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-23 10:05:46,192.0.2.100,admin,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-23 10:05:54,192.0.2.100,root,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 10:06:35,192.0.2.100,jane,password,rdp,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 10:06:40,192.0.2.100,support,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 10:06:55,192.0.2.100,support,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 10:06:57,192.0.2.100,john,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 10:06:58,192.0.2.100,jane,password,web_portal,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 10:07:05,192.0.2.100,support,password,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 10:07:14,192.0.2.100,admin,password,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 10:07:42,192.0.2.100,support,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 10:07:44,192.0.2.100,admin,password,sshd,FAILURE,Failed password for invalid user
+2026-09-23 10:07:50,192.0.2.100,user1,ssh_key,rdp,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 10:07:51,192.0.2.100,john,password,rdp,FAILURE,Invalid credentials — access denied
+2026-09-23 10:07:55,192.0.2.100,john,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 10:07:59,192.0.2.100,admin,password,web_portal,FAILURE,Invalid credentials — access denied
+2026-09-23 10:08:22,192.0.2.100,john,ssh_key,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 10:08:26,192.0.2.100,root,password,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 10:08:32,192.0.2.100,admin,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 10:08:46,192.0.2.100,admin,password,vpn_gateway,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 10:09:45,10.0.18.17,bhaskar,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 10:22:09,10.0.41.177,leo,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-23 10:22:27,10.0.9.131,olivia,certificate,web_portal,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 10:25:51,10.0.18.17,olivia,password,api_server,SUCCESS,Accepted publickey for user
+2026-09-23 10:30:33,172.16.1.245,olivia,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-23 10:34:26,10.0.41.44,yuki,password,sshd,SUCCESS,User authenticated successfully
+2026-09-23 10:37:46,10.0.46.81,olivia,2fa,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-23 10:39:19,192.168.1.29,leo,password,vpn_gateway,FAILURE,Failed password for invalid user
+2026-09-23 10:51:41,10.0.39.7,dev,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 10:51:43,192.168.1.13,diana,kerberos,rdp,SUCCESS,Access granted — session initiated
+2026-09-23 10:51:49,10.0.35.187,uma,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 11:00:10,10.0.25.25,zara,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-23 11:08:17,172.16.9.236,jack,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 11:17:09,10.0.18.63,grace,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 11:18:44,10.0.13.181,tina,kerberos,rdp,FAILURE,Failed password for invalid user
+2026-09-23 11:26:23,172.16.5.112,victor,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-23 11:27:38,10.0.18.254,arun,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 11:28:44,10.0.45.140,dev,2fa,web_portal,SUCCESS,User authenticated successfully
+2026-09-23 11:30:07,172.16.9.196,peter,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-23 11:37:51,10.0.9.64,bob,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 11:38:16,10.0.8.250,charlie,ssh_key,sshd,FAILURE,Invalid credentials — access denied
+2026-09-23 11:41:03,10.0.44.84,zara,2fa,sshd,SUCCESS,Session opened for user
+2026-09-23 11:41:50,192.168.1.17,rachel,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 11:44:30,10.0.17.207,wendy,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-23 11:48:29,192.168.1.227,diana,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 11:52:15,192.168.1.109,charlie,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 11:53:23,192.168.1.175,eve,2fa,rdp,SUCCESS,Login accepted via PAM
+2026-09-23 12:07:35,10.0.5.156,leo,kerberos,web_portal,SUCCESS,User authenticated successfully
+2026-09-23 12:10:36,10.0.27.57,bob,certificate,rdp,SUCCESS,Login accepted via PAM
+2026-09-23 12:10:46,172.16.5.216,victor,kerberos,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 12:11:49,10.0.13.181,steve,kerberos,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 12:12:09,10.0.18.63,leo,password,api_server,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 12:12:18,10.0.30.138,grace,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-23 12:17:20,10.0.32.24,yuki,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 12:25:34,10.0.49.87,charlie,kerberos,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-23 12:26:27,10.0.32.102,wendy,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 12:26:49,10.0.41.214,nathan,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-23 12:28:42,172.16.1.245,olivia,kerberos,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 12:37:06,10.0.44.190,bob,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 12:38:18,10.0.7.24,eve,2fa,rdp,SUCCESS,User authenticated successfully
+2026-09-23 12:44:52,10.0.15.36,diana,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-23 12:46:20,10.0.45.140,zara,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 12:53:20,10.0.23.217,dev,password,web_portal,SUCCESS,Session opened for user
+2026-09-23 13:01:53,10.0.36.51,frank,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 13:04:28,10.0.41.44,leo,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-23 13:08:20,10.0.10.68,arun,password,sshd,SUCCESS,Authentication successful
+2026-09-23 13:08:36,10.0.15.130,peter,password,api_server,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 13:11:11,10.0.11.179,arun,2fa,vpn_gateway,SUCCESS,Session opened for user
+2026-09-23 13:15:13,10.0.46.81,frank,kerberos,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-23 13:15:32,10.0.10.68,zara,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 13:17:18,10.0.23.217,tina,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 13:18:02,10.0.32.102,peter,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-23 13:19:01,172.16.9.196,maria,2fa,web_portal,SUCCESS,Authentication successful
+2026-09-23 13:19:30,172.16.5.112,nathan,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 13:20:44,10.0.21.103,alice,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 13:24:05,172.16.9.196,yuki,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 13:26:34,172.16.3.139,xander,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 13:28:20,10.0.36.51,iris,2fa,sshd,SUCCESS,Session opened for user
+2026-09-23 13:30:30,192.168.1.17,rachel,password,sshd,SUCCESS,User authenticated successfully
+2026-09-23 13:30:52,10.0.15.36,alice,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 13:48:51,10.0.9.131,diana,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-23 13:49:06,10.0.3.8,henry,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-23 13:53:40,10.0.50.75,victor,password,api_server,SUCCESS,Session opened for user
+2026-09-23 13:59:04,10.0.6.219,bob,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-23 14:03:44,10.0.49.87,dev,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 14:05:25,172.16.5.112,arun,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-23 14:14:04,172.16.9.156,chitra,kerberos,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 14:19:50,172.16.9.156,olivia,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 14:22:11,172.16.6.196,henry,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-23 14:22:51,10.0.7.24,charlie,2fa,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-23 14:23:46,192.168.1.120,bhaskar,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-23 14:27:09,192.168.1.227,uma,password,rdp,SUCCESS,Session opened for user
+2026-09-23 14:33:50,10.0.3.187,nathan,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 14:39:16,192.168.1.41,victor,kerberos,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 14:39:20,192.168.1.30,bhaskar,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-23 14:42:19,10.0.10.68,peter,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 14:45:28,10.0.8.250,diana,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 14:45:50,10.0.44.166,frank,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 14:57:38,10.0.18.40,karen,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-23 14:59:48,10.0.30.138,uma,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-23 15:00:36,172.16.3.139,quinn,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-23 15:02:25,10.0.5.12,chitra,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 15:03:15,192.168.1.40,xander,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 15:14:27,10.0.24.91,uma,2fa,sshd,SUCCESS,Session opened for user
+2026-09-23 15:14:47,10.0.46.167,quinn,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-23 15:19:58,10.0.41.44,tina,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 15:26:14,10.0.41.44,olivia,password,rdp,SUCCESS,Session opened for user
+2026-09-23 15:42:04,10.0.43.59,victor,ssh_key,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 15:43:43,10.0.38.103,tina,password,web_portal,SUCCESS,Session opened for user
+2026-09-23 15:47:25,10.0.13.181,alice,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 15:51:38,172.16.5.197,chitra,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 15:54:07,10.0.14.246,olivia,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 15:55:11,10.0.17.207,steve,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-23 15:55:19,10.0.7.24,xander,password,sshd,SUCCESS,User authenticated successfully
+2026-09-23 15:57:13,10.0.17.207,dev,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 16:00:35,10.0.14.234,dev,ssh_key,api_server,SUCCESS,Access granted — session initiated
+2026-09-23 16:07:31,10.0.3.187,frank,password,api_server,SUCCESS,Authentication successful
+2026-09-23 16:08:21,10.0.42.118,henry,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-23 16:15:06,192.168.1.203,eve,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-23 16:15:19,10.0.28.88,chitra,certificate,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 16:19:59,10.0.41.29,victor,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-23 16:20:16,10.0.7.98,frank,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 16:21:12,10.0.0.254,svc_account,password,rdp,FAILURE,Failed password for invalid user
+2026-09-23 16:23:48,10.0.0.254,backup_admin,password,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 16:23:52,10.0.0.254,svc_account,ssh_key,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 16:23:52,10.0.0.254,svc_account,ssh_key,rdp,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 16:24:19,10.0.0.254,svc_account,ssh_key,rdp,FAILURE,Invalid credentials — access denied
+2026-09-23 16:24:20,10.0.0.254,backup_admin,ssh_key,sshd,FAILURE,Failed password for invalid user
+2026-09-23 16:24:33,10.0.0.254,backup_admin,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 16:25:04,10.0.0.254,svc_account,password,rdp,FAILURE,Invalid credentials — access denied
+2026-09-23 16:38:10,10.0.41.214,nathan,password,api_server,SUCCESS,Authentication successful
+2026-09-23 16:41:39,192.168.1.40,leo,password,sshd,SUCCESS,User authenticated successfully
+2026-09-23 16:44:20,10.0.9.64,bhaskar,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-23 16:48:01,10.0.24.148,henry,2fa,sshd,SUCCESS,Authentication successful
+2026-09-23 16:48:25,10.0.41.177,eve,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-23 16:48:58,10.0.16.42,frank,kerberos,vpn_gateway,SUCCESS,Session opened for user
+2026-09-23 16:50:24,10.0.4.59,yuki,2fa,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-23 17:05:18,10.0.41.159,alice,password,rdp,SUCCESS,Session opened for user
+2026-09-23 17:07:11,10.0.28.230,rachel,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-23 17:08:17,192.168.1.153,karen,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 17:12:45,192.168.1.98,tina,certificate,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-23 17:12:57,10.0.5.12,frank,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 17:16:32,10.0.6.56,yuki,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-23 17:19:36,10.0.24.42,zara,2fa,api_server,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 17:19:49,10.0.28.88,karen,2fa,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-23 17:26:50,10.0.36.57,chitra,password,web_portal,SUCCESS,Authentication successful
+2026-09-23 17:28:16,10.0.39.7,yuki,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 17:42:31,172.16.9.196,quinn,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-23 17:46:57,10.0.18.117,jack,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 17:56:00,10.0.46.167,karen,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 18:05:10,192.168.1.175,diana,ssh_key,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 18:10:01,10.0.28.230,rachel,password,vpn_gateway,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-23 18:20:12,192.168.1.99,grace,password,sshd,SUCCESS,Authentication successful
+2026-09-23 18:21:50,10.0.5.12,bhaskar,password,web_portal,SUCCESS,Authentication successful
+2026-09-23 18:22:03,10.0.18.180,jack,ssh_key,api_server,SUCCESS,Kerberos TGT validated
+2026-09-23 18:30:17,192.168.1.221,bob,password,api_server,SUCCESS,User authenticated successfully
+2026-09-23 18:38:30,172.16.5.249,alice,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-23 18:48:17,192.168.1.153,yuki,password,sshd,SUCCESS,Authentication successful
+2026-09-23 18:48:50,172.16.1.245,henry,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 19:01:06,192.168.1.193,xander,2fa,web_portal,SUCCESS,Session opened for user
+2026-09-23 19:15:56,10.0.14.234,bhaskar,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-23 19:19:35,192.168.1.153,maria,2fa,rdp,SUCCESS,Kerberos TGT validated
+2026-09-23 19:21:15,10.0.21.103,alice,2fa,api_server,SUCCESS,Accepted publickey for user
+2026-09-23 19:36:53,10.0.3.187,peter,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-23 19:47:42,10.0.18.208,grace,ssh_key,api_server,FAILURE,"Permission denied (publickey,password)"
+2026-09-23 20:00:03,192.168.1.3,dev,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 20:12:18,10.0.28.230,olivia,kerberos,vpn_gateway,SUCCESS,Session opened for user
+2026-09-23 20:12:36,172.16.6.196,steve,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 20:18:35,10.0.15.36,quinn,2fa,sshd,SUCCESS,Session opened for user
+2026-09-23 20:44:56,10.0.25.21,dev,2fa,sshd,SUCCESS,Session opened for user
+2026-09-23 20:45:54,10.0.8.250,steve,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-23 20:57:10,10.0.14.168,steve,kerberos,sshd,SUCCESS,Access granted — session initiated
+2026-09-23 21:06:03,10.0.32.24,maria,password,rdp,SUCCESS,Session opened for user
+2026-09-23 21:55:06,192.168.1.109,diana,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-23 22:46:47,10.0.6.219,arun,2fa,sshd,SUCCESS,Session opened for user
+2026-09-23 22:51:43,172.16.5.112,wendy,password,rdp,SUCCESS,Session opened for user
+2026-09-23 23:20:35,192.168.1.175,alice,password,sshd,SUCCESS,User authenticated successfully
+2026-09-23 23:34:50,192.168.1.65,alice,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-23 23:58:33,192.168.1.153,charlie,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-23 23:59:08,172.16.4.40,frank,2fa,web_portal,SUCCESS,Session opened for user
+2026-09-24 00:44:13,192.168.1.41,yuki,2fa,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 00:56:31,10.0.44.190,henry,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-24 00:59:09,172.16.6.196,yuki,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 01:50:57,10.0.1.195,tina,password,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-24 02:06:11,172.16.3.139,jack,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-24 03:19:29,172.16.5.112,victor,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-24 03:46:53,192.168.1.29,tina,kerberos,vpn_gateway,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-24 03:51:40,10.0.36.57,dev,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 04:08:09,10.0.38.103,karen,ssh_key,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-24 05:08:30,192.168.1.30,eve,ssh_key,rdp,SUCCESS,Access granted — session initiated
+2026-09-24 05:10:04,10.0.0.254,svc_account,password,vpn_gateway,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-24 05:10:28,10.0.0.254,backup_admin,password,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-24 05:11:07,10.0.0.254,svc_account,password,sshd,FAILURE,error: maximum authentication attempts exceeded
+2026-09-24 05:11:13,10.0.0.254,svc_account,password,sshd,FAILURE,Invalid credentials — access denied
+2026-09-24 05:12:39,10.0.0.254,backup_admin,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-24 05:13:04,10.0.0.254,svc_account,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-24 05:13:47,10.0.0.254,svc_account,password,web_portal,FAILURE,error: maximum authentication attempts exceeded
+2026-09-24 05:41:21,172.16.3.139,iris,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-24 06:19:32,10.0.37.225,rachel,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-24 06:21:33,10.0.48.144,zara,kerberos,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-24 06:27:40,10.0.14.172,maria,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 06:32:18,10.0.30.98,henry,kerberos,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-24 07:04:32,10.0.11.179,xander,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-24 07:24:46,192.168.1.175,dev,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-24 07:26:38,10.0.14.246,wendy,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 07:33:55,10.0.24.57,leo,password,api_server,SUCCESS,Authentication successful
+2026-09-24 07:35:25,10.0.7.98,maria,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 07:38:39,10.0.3.8,uma,kerberos,web_portal,SUCCESS,Access granted — session initiated
+2026-09-24 07:49:14,172.16.6.196,xander,2fa,api_server,SUCCESS,Accepted publickey for user
+2026-09-24 07:49:34,10.0.6.219,arun,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 07:53:43,10.0.14.172,rachel,ssh_key,rdp,FAILURE,Invalid credentials — access denied
+2026-09-24 07:55:07,10.0.2.190,yuki,password,rdp,SUCCESS,Login accepted via PAM
+2026-09-24 07:57:54,10.0.2.190,arun,password,sshd,SUCCESS,Session opened for user
+2026-09-24 08:11:05,10.0.14.172,tina,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-24 08:11:05,192.168.1.138,xander,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 08:18:16,172.16.9.196,henry,ssh_key,sshd,SUCCESS,Accepted publickey for user
+2026-09-24 08:19:00,10.0.6.56,chitra,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 08:21:30,10.0.39.7,eve,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 08:25:32,10.0.27.57,karen,password,api_server,SUCCESS,Login accepted via PAM
+2026-09-24 08:31:28,10.0.1.195,alice,kerberos,api_server,SUCCESS,Session opened for user
+2026-09-24 08:42:21,192.168.1.193,zara,certificate,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 08:48:31,10.0.48.144,karen,password,sshd,SUCCESS,User authenticated successfully
+2026-09-24 08:51:51,10.0.5.12,frank,ssh_key,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-24 08:54:58,10.0.17.207,peter,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-24 08:58:52,10.0.2.190,peter,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-24 09:04:38,10.0.18.208,xander,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 09:05:54,10.0.15.222,henry,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 09:12:03,10.0.18.254,xander,2fa,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-24 09:13:44,10.0.45.140,wendy,password,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-24 09:14:43,172.16.9.236,grace,2fa,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-24 09:16:26,10.0.41.177,maria,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 09:19:47,10.0.7.98,olivia,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-24 09:23:42,192.168.1.65,maria,ssh_key,api_server,SUCCESS,Kerberos TGT validated
+2026-09-24 09:27:18,192.168.1.193,steve,ssh_key,api_server,SUCCESS,User authenticated successfully
+2026-09-24 09:27:58,10.0.41.177,rachel,password,rdp,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-24 09:28:56,10.0.35.187,henry,password,web_portal,SUCCESS,Authentication successful
+2026-09-24 09:32:10,10.0.28.88,yuki,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 09:35:36,10.0.38.103,eve,kerberos,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-24 09:41:45,172.16.6.196,chitra,password,sshd,SUCCESS,Authentication successful
+2026-09-24 09:41:55,10.0.24.91,bhaskar,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 09:46:23,172.16.5.216,tina,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-24 09:51:30,192.168.1.185,quinn,2fa,api_server,FAILURE,Failed password for invalid user
+2026-09-24 09:54:19,10.0.24.91,karen,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-24 09:57:06,10.0.46.81,eve,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-24 09:58:45,10.0.36.51,leo,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-24 10:01:05,10.0.50.75,olivia,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-24 10:01:58,10.0.46.81,tina,kerberos,api_server,FAILURE,error: maximum authentication attempts exceeded
+2026-09-24 10:06:38,10.0.18.17,maria,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-24 10:07:00,192.168.1.221,peter,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-24 10:08:08,10.0.36.51,alice,password,sshd,FAILURE,Authentication failure; logname= uid=0 euid=0
+2026-09-24 10:08:50,10.0.23.217,steve,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-24 10:14:07,10.0.10.68,grace,password,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-24 10:21:10,192.168.1.13,alice,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 10:24:36,10.0.46.167,xander,password,web_portal,SUCCESS,Access granted — session initiated
+2026-09-24 10:24:54,10.0.41.29,peter,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 10:29:45,10.0.46.167,uma,kerberos,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 10:30:58,10.0.5.12,olivia,password,api_server,SUCCESS,Accepted publickey for user
+2026-09-24 10:32:47,10.0.3.8,alice,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-24 10:35:06,192.168.1.153,frank,ssh_key,rdp,SUCCESS,Session opened for user
+2026-09-24 10:39:15,10.0.15.36,olivia,ssh_key,web_portal,SUCCESS,Session opened for user
+2026-09-24 10:43:23,172.16.5.249,rachel,certificate,web_portal,SUCCESS,Session opened for user
+2026-09-24 10:43:44,10.0.18.208,wendy,password,web_portal,SUCCESS,Authentication successful
+2026-09-24 11:00:33,192.168.1.142,diana,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 11:04:19,10.0.38.103,frank,password,rdp,SUCCESS,User authenticated successfully
+2026-09-24 11:12:06,10.0.10.68,bob,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-24 11:25:21,10.0.3.207,charlie,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-24 11:31:11,10.0.7.24,dev,certificate,api_server,SUCCESS,Authentication successful
+2026-09-24 11:34:02,10.0.50.199,quinn,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 11:36:52,10.0.36.76,arun,kerberos,sshd,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-24 11:42:05,10.0.28.230,quinn,password,sshd,SUCCESS,Authentication successful
+2026-09-24 11:48:08,10.0.24.42,tina,password,sshd,SUCCESS,Session opened for user
+2026-09-24 12:00:49,192.168.1.194,nathan,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 12:06:04,192.168.1.249,yuki,ssh_key,web_portal,SUCCESS,Access granted — session initiated
+2026-09-24 12:08:13,10.0.43.59,eve,password,web_portal,SUCCESS,Session opened for user
+2026-09-24 12:08:46,172.16.5.112,frank,2fa,api_server,FAILURE,Failed password for invalid user
+2026-09-24 12:10:11,10.0.25.21,henry,2fa,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 12:10:13,10.0.36.51,zara,password,web_portal,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-24 12:12:52,192.168.1.109,dev,password,rdp,SUCCESS,Session opened for user
+2026-09-24 12:14:14,10.0.15.222,eve,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-24 12:14:53,10.0.23.155,nathan,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 12:17:12,10.0.3.187,zara,password,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-24 12:22:59,10.0.9.131,alice,password,web_portal,SUCCESS,Authentication successful
+2026-09-24 12:26:10,172.16.5.216,yuki,password,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 12:28:10,10.0.38.103,frank,kerberos,vpn_gateway,FAILURE,Invalid credentials — access denied
+2026-09-24 12:29:12,10.0.27.57,jack,ssh_key,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-24 12:34:15,10.0.2.190,jack,2fa,api_server,SUCCESS,Accepted publickey for user
+2026-09-24 12:43:23,192.168.1.161,alice,password,sshd,SUCCESS,Authentication successful
+2026-09-24 12:44:12,10.0.5.156,diana,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 12:47:49,10.0.17.207,yuki,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 12:49:18,10.0.1.195,uma,password,sshd,SUCCESS,Session opened for user
+2026-09-24 12:53:48,10.0.41.29,diana,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 12:57:01,10.0.27.57,diana,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 12:57:43,10.0.8.250,arun,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 12:58:08,192.168.1.3,henry,password,api_server,SUCCESS,User authenticated successfully
+2026-09-24 13:01:48,192.168.1.29,bob,kerberos,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 13:03:41,10.0.18.40,rachel,password,sshd,SUCCESS,Session opened for user
+2026-09-24 13:05:49,192.168.1.3,bob,2fa,sshd,SUCCESS,Access granted — session initiated
+2026-09-24 13:07:48,192.168.1.120,iris,password,web_portal,SUCCESS,Kerberos TGT validated
+2026-09-24 13:11:00,10.0.41.177,rachel,2fa,sshd,SUCCESS,Session opened for user
+2026-09-24 13:13:55,192.168.1.194,bob,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-24 13:17:48,192.168.1.194,zara,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 13:20:13,10.0.24.91,charlie,password,sshd,SUCCESS,Session opened for user
+2026-09-24 13:22:19,10.0.9.64,jack,2fa,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-24 13:23:34,10.0.6.56,victor,2fa,api_server,SUCCESS,Authentication successful
+2026-09-24 13:25:00,172.16.3.139,jack,ssh_key,sshd,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-24 13:26:50,10.0.41.177,karen,ssh_key,vpn_gateway,SUCCESS,Accepted publickey for user
+2026-09-24 13:32:06,192.168.1.30,frank,password,sshd,SUCCESS,Accepted publickey for user
+2026-09-24 13:33:32,10.0.3.207,bhaskar,2fa,sshd,SUCCESS,Session opened for user
+2026-09-24 13:37:01,192.168.1.242,olivia,2fa,rdp,SUCCESS,Kerberos TGT validated
+2026-09-24 13:40:09,192.168.1.175,jack,kerberos,api_server,SUCCESS,Accepted publickey for user
+2026-09-24 13:44:48,10.0.39.7,arun,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-24 13:50:09,10.0.39.7,karen,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-24 13:55:35,10.0.5.156,frank,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 13:55:41,172.16.4.40,henry,kerberos,sshd,SUCCESS,Authentication successful
+2026-09-24 13:58:59,172.16.5.216,olivia,2fa,vpn_gateway,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-24 13:59:35,172.16.9.236,wendy,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-24 14:04:41,10.0.5.12,nathan,password,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 14:17:36,10.0.18.63,bob,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-24 14:20:23,10.0.16.42,charlie,ssh_key,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 14:20:46,10.0.27.57,charlie,certificate,rdp,SUCCESS,Accepted publickey for user
+2026-09-24 14:31:09,192.168.1.30,steve,password,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 14:33:19,192.168.1.193,nathan,kerberos,sshd,FAILURE,"Permission denied (publickey,password)"
+2026-09-24 14:39:39,10.0.36.76,karen,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 14:41:04,192.168.1.249,jack,ssh_key,api_server,SUCCESS,Session opened for user
+2026-09-24 14:43:05,192.168.1.161,iris,2fa,web_portal,SUCCESS,Login accepted via PAM
+2026-09-24 14:43:07,10.0.30.98,leo,password,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-24 14:43:41,192.168.1.142,rachel,ssh_key,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 14:47:51,172.16.9.236,henry,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 14:48:00,192.168.1.98,nathan,2fa,sshd,SUCCESS,Authentication successful
+2026-09-24 14:55:16,192.168.1.153,bob,ssh_key,web_portal,FAILURE,Failed password for invalid user
+2026-09-24 14:59:25,192.168.1.3,charlie,2fa,web_portal,FAILURE,pam_unix(sshd:auth): authentication failure
+2026-09-24 15:01:54,192.168.1.153,karen,password,rdp,FAILURE,error: maximum authentication attempts exceeded
+2026-09-24 15:02:28,10.0.2.190,dev,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-24 15:06:20,172.16.6.196,rachel,password,sshd,SUCCESS,User authenticated successfully
+2026-09-24 15:06:28,10.0.48.144,peter,password,vpn_gateway,SUCCESS,Access granted — session initiated
+2026-09-24 15:10:28,192.168.1.194,charlie,2fa,sshd,SUCCESS,Authentication successful
+2026-09-24 15:12:45,10.0.32.102,jack,certificate,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-24 15:13:25,10.0.41.214,frank,certificate,web_portal,SUCCESS,Authentication successful
+2026-09-24 15:14:20,10.0.44.84,leo,password,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 15:26:50,192.168.1.98,henry,2fa,web_portal,SUCCESS,Access granted — session initiated
+2026-09-24 15:30:10,192.168.1.120,tina,kerberos,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 15:32:36,172.16.2.223,chitra,2fa,vpn_gateway,SUCCESS,Authentication successful
+2026-09-24 15:36:59,10.0.24.91,olivia,password,sshd,SUCCESS,Session opened for user
+2026-09-24 15:40:27,10.0.25.21,frank,password,sshd,SUCCESS,Authentication successful
+2026-09-24 15:43:28,192.168.1.138,henry,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-24 15:46:26,192.168.1.203,diana,ssh_key,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-24 15:46:36,10.0.9.64,henry,kerberos,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 15:46:55,10.0.32.102,leo,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-24 15:50:37,10.0.50.199,wendy,kerberos,web_portal,SUCCESS,Accepted publickey for user
+2026-09-24 15:51:07,10.0.38.103,zara,2fa,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 16:00:07,10.0.15.36,olivia,kerberos,web_portal,SUCCESS,Authentication successful
+2026-09-24 16:06:49,172.16.5.197,nathan,password,api_server,SUCCESS,Authentication successful
+2026-09-24 16:18:43,10.0.28.88,iris,2fa,vpn_gateway,SUCCESS,Kerberos TGT validated
+2026-09-24 16:23:14,10.0.3.207,olivia,2fa,sshd,SUCCESS,Accepted publickey for user
+2026-09-24 16:37:42,10.0.48.150,zara,password,sshd,SUCCESS,Session opened for user
+2026-09-24 16:41:15,10.0.23.217,arun,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-24 16:59:47,10.0.50.75,bob,ssh_key,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 17:02:54,10.0.15.36,peter,ssh_key,web_portal,FAILURE,Connection closed by authenticating user [preauth]
+2026-09-24 17:05:25,10.0.7.24,quinn,password,api_server,SUCCESS,Access granted — session initiated
+2026-09-24 17:12:01,10.0.46.167,victor,ssh_key,sshd,SUCCESS,Login accepted via PAM
+2026-09-24 17:13:18,192.168.1.193,iris,password,web_portal,SUCCESS,User authenticated successfully
+2026-09-24 17:14:45,172.16.4.40,bob,password,web_portal,SUCCESS,Login accepted via PAM
+2026-09-24 17:17:31,10.0.35.23,grace,2fa,sshd,SUCCESS,User authenticated successfully
+2026-09-24 17:21:49,10.0.49.87,eve,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-24 17:28:53,10.0.24.42,henry,ssh_key,vpn_gateway,SUCCESS,User authenticated successfully
+2026-09-24 17:35:22,10.0.18.208,chitra,ssh_key,vpn_gateway,FAILURE,Failed password for invalid user
+2026-09-24 17:51:38,10.0.27.57,maria,password,sshd,SUCCESS,Access granted — session initiated
+2026-09-24 17:54:03,10.0.50.199,nathan,password,sshd,FAILURE,Failed password for invalid user
+2026-09-24 18:19:15,10.0.18.17,xander,2fa,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-24 18:29:42,10.0.18.117,steve,password,web_portal,SUCCESS,Authentication successful
+2026-09-24 18:39:52,10.0.44.84,xander,ssh_key,rdp,SUCCESS,Session opened for user
+2026-09-24 18:42:33,192.168.1.109,jack,ssh_key,sshd,FAILURE,Failed keyboard-interactive/pam for user
+2026-09-24 18:50:34,192.168.1.40,steve,certificate,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 18:55:44,192.168.1.142,uma,ssh_key,sshd,SUCCESS,Kerberos TGT validated
+2026-09-24 19:01:54,10.0.27.57,bhaskar,kerberos,sshd,SUCCESS,Session opened for user
+2026-09-24 19:41:47,10.0.10.68,leo,ssh_key,api_server,SUCCESS,Session opened for user
+2026-09-24 19:56:46,192.168.1.29,grace,ssh_key,web_portal,SUCCESS,Authentication successful
+2026-09-24 19:59:32,10.0.9.131,diana,ssh_key,sshd,SUCCESS,User authenticated successfully
+2026-09-24 20:02:48,10.0.39.7,alice,password,sshd,SUCCESS,Session opened for user
+2026-09-24 20:02:56,10.0.17.207,nathan,password,rdp,SUCCESS,Accepted publickey for user
+2026-09-24 21:15:47,10.0.1.195,bob,ssh_key,vpn_gateway,SUCCESS,Session opened for user
+2026-09-24 21:49:17,172.16.2.223,olivia,password,rdp,SUCCESS,Access granted — session initiated
+2026-09-24 21:52:04,192.168.1.120,diana,ssh_key,vpn_gateway,SUCCESS,Login accepted via PAM
+2026-09-24 22:32:14,10.0.29.151,olivia,ssh_key,sshd,SUCCESS,Authentication successful
+2026-09-24 23:36:02,192.168.1.138,frank,password,rdp,SUCCESS,Accepted publickey for user
+2026-09-24 23:37:30,192.168.1.242,arun,password,vpn_gateway,SUCCESS,Session opened for user
+2026-09-24 23:56:27,10.0.44.166,chitra,password,sshd,FAILURE,error: maximum authentication attempts exceeded
